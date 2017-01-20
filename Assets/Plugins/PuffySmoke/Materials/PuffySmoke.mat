@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PuffySmoke
+  m_Shader: {fileID: 4800000, guid: 98640db0e2a9236429b24941c8ad0807, type: 3}
+  m_ShaderKeywords: CLOUDS_OFF END_DETAILS_ON EXTRA_LIGHTS_ON START_DETAILS_ON VERTEXLIGHT_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 790a1477062ad0d4ebefd7315b75d5ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 460a39ae632edeb47b9dc481aef58f79, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: 32cf1bfee0f51384bbe13ddc4c8b8337, type: 3}
+          m_Scale: {x: 0.5, y: 0.5}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _CloudMode
+        second: 0
+      data:
+        first:
+          name: _Sharpness
+        second: 0
+      data:
+        first:
+          name: _DetailsHSpeed
+        second: 0.01
+      data:
+        first:
+          name: _DetailsVSpeed
+        second: -0.05
+      data:
+        first:
+          name: _SharpnessSmall
+        second: 10
+      data:
+        first:
+          name: _DetailsHSpeed2
+        second: 0
+      data:
+        first:
+          name: _DetailsVSpeed2
+        second: 0.13
+      data:
+        first:
+          name: _DetailsFading
+        second: 1
+      data:
+        first:
+          name: _DetailsFadingLimit
+        second: 2
+      data:
+        first:
+          name: _FadeIn
+        second: 0
+      data:
+        first:
+          name: _Opacity
+        second: 0.471
+      data:
+        first:
+          name: _Density
+        second: 0.173
+      data:
+        first:
+          name: _EmissiveDensity
+        second: 1
+      data:
+        first:
+          name: _Scattering
+        second: 0
+      data:
+        first:
+          name: _ExtraLightsIntensity
+        second: 1
+      data:
+        first:
+          name: _ElapsedTime
+        second: 1
+      data:
+        first:
+          name: _DetailsSpeed
+        second: 0
+      data:
+        first:
+          name: _DetailsSpeedSmall
+        second: 0
+      data:
+        first:
+          name: _TScale
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ShadowColor
+        second: {r: 0, g: 0, b: 0, a: 1}

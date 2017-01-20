@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{45D5BB2F-8571-8798-8C1A-79F6657D5DCA}") = "back - 복사본", "Assembly-CSharp-firstpass.csproj", "{DDC40CC7-801B-FB39-7F64-763B723FCFFF}"
+EndProject
+Project("{45D5BB2F-8571-8798-8C1A-79F6657D5DCA}") = "back - 복사본", "Assembly-CSharp.csproj", "{8886A5B7-C09B-A4C2-DAAD-23D40B9EAC49}"
+EndProject
+Project("{45D5BB2F-8571-8798-8C1A-79F6657D5DCA}") = "back - 복사본", "Assembly-CSharp-Editor.csproj", "{E5CBE246-8EB8-B768-7536-AD1E3F83F9AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC40CC7-801B-FB39-7F64-763B723FCFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC40CC7-801B-FB39-7F64-763B723FCFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC40CC7-801B-FB39-7F64-763B723FCFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC40CC7-801B-FB39-7F64-763B723FCFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8886A5B7-C09B-A4C2-DAAD-23D40B9EAC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8886A5B7-C09B-A4C2-DAAD-23D40B9EAC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8886A5B7-C09B-A4C2-DAAD-23D40B9EAC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8886A5B7-C09B-A4C2-DAAD-23D40B9EAC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CBE246-8EB8-B768-7536-AD1E3F83F9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CBE246-8EB8-B768-7536-AD1E3F83F9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CBE246-8EB8-B768-7536-AD1E3F83F9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CBE246-8EB8-B768-7536-AD1E3F83F9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

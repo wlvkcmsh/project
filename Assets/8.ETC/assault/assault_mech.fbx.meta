@@ -1,0 +1,1693 @@
+fileFormatVersion: 2
+guid: aab967ac3c55f814b98145340f6815e8
+timeCreated: 1467599869
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: assault_mech
+    100004: assault_mech_Chest
+    100006: assault_mech_Hips
+    100008: assault_mech_LeftArm
+    100010: assault_mech_LeftArmRocket
+    100012: assault_mech_LeftArmRocketDown
+    100014: assault_mech_LeftArmRocketUp
+    100016: assault_mech_LeftArmWeapon
+    100018: assault_mech_LeftFoot
+    100020: assault_mech_LeftFootExt1
+    100022: assault_mech_LeftFootExt2
+    100024: assault_mech_LeftFootExt3
+    100026: assault_mech_LeftFootExt4
+    100028: assault_mech_LeftFootExt5
+    100030: assault_mech_LeftForeArm
+    100032: assault_mech_LeftForeArmWeapon
+    100034: assault_mech_LeftLeg
+    100036: assault_mech_LeftLegHelper
+    100038: assault_mech_leftLegPiston
+    100040: assault_mech_LeftUpLeg
+    100042: assault_mech_RightArm
+    100044: assault_mech_RightArmRocket
+    100046: assault_mech_RightArmRocketDown
+    100048: assault_mech_RightArmRocketUp
+    100050: assault_mech_RightArmWeapon
+    100052: assault_mech_RightFoot
+    100054: assault_mech_RightFootExt1
+    100056: assault_mech_RightFootExt2
+    100058: assault_mech_RightFootExt3
+    100060: assault_mech_RightFootExt4
+    100062: assault_mech_RightFootExt5
+    100064: assault_mech_RightForeArm
+    100066: assault_mech_RightForeArmWeapon
+    100068: assault_mech_RightLeg
+    100070: assault_mech_RightLegHelper
+    100072: assault_mech_RightLegPiston
+    100074: assault_mech_RightUpLeg
+    100076: assault_mech_Root
+    100078: Mech_Anims_15SkelMesh:assault_mech
+    100080: Mech_Anims_15SkelMesh:assault_mech_Chest
+    100082: Mech_Anims_15SkelMesh:assault_mech_Hips
+    100084: Mech_Anims_15SkelMesh:assault_mech_LeftArm
+    100086: Mech_Anims_15SkelMesh:assault_mech_LeftArmRocket
+    100088: Mech_Anims_15SkelMesh:assault_mech_LeftArmRocketDown
+    100090: Mech_Anims_15SkelMesh:assault_mech_LeftArmRocketUp
+    100092: Mech_Anims_15SkelMesh:assault_mech_LeftArmWeapon
+    100094: Mech_Anims_15SkelMesh:assault_mech_LeftFoot
+    100096: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt1
+    100098: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt2
+    100100: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt3
+    100102: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt4
+    100104: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt5
+    100106: Mech_Anims_15SkelMesh:assault_mech_LeftForeArm
+    100108: Mech_Anims_15SkelMesh:assault_mech_LeftForeArmWeapon
+    100110: Mech_Anims_15SkelMesh:assault_mech_LeftLeg
+    100112: Mech_Anims_15SkelMesh:assault_mech_LeftLegHelper
+    100114: Mech_Anims_15SkelMesh:assault_mech_leftLegPiston
+    100116: Mech_Anims_15SkelMesh:assault_mech_LeftUpLeg
+    100118: Mech_Anims_15SkelMesh:assault_mech_RightArm
+    100120: Mech_Anims_15SkelMesh:assault_mech_RightArmRocket
+    100122: Mech_Anims_15SkelMesh:assault_mech_RightArmRocketDown
+    100124: Mech_Anims_15SkelMesh:assault_mech_RightArmRocketUp
+    100126: Mech_Anims_15SkelMesh:assault_mech_RightArmWeapon
+    100128: Mech_Anims_15SkelMesh:assault_mech_RightFoot
+    100130: Mech_Anims_15SkelMesh:assault_mech_RightFootExt1
+    100132: Mech_Anims_15SkelMesh:assault_mech_RightFootExt2
+    100134: Mech_Anims_15SkelMesh:assault_mech_RightFootExt3
+    100136: Mech_Anims_15SkelMesh:assault_mech_RightFootExt4
+    100138: Mech_Anims_15SkelMesh:assault_mech_RightFootExt5
+    100140: Mech_Anims_15SkelMesh:assault_mech_RightForeArm
+    100142: Mech_Anims_15SkelMesh:assault_mech_RightForeArmWeapon
+    100144: Mech_Anims_15SkelMesh:assault_mech_RightLeg
+    100146: Mech_Anims_15SkelMesh:assault_mech_RightLegHelper
+    100148: Mech_Anims_15SkelMesh:assault_mech_RightLegPiston
+    100150: Mech_Anims_15SkelMesh:assault_mech_RightUpLeg
+    100152: Mech_Anims_15SkelMesh:assault_mech_Root
+    100154: Mech_Anims_15:assault_mech 1
+    100156: Mech_Anims_15:assault_mech_Chest
+    100158: Mech_Anims_15:assault_mech_Hips
+    100160: Mech_Anims_15:assault_mech_LeftArm
+    100162: Mech_Anims_15:assault_mech_LeftArmRocket
+    100164: Mech_Anims_15:assault_mech_LeftArmRocketDown
+    100166: Mech_Anims_15:assault_mech_LeftArmRocketUp
+    100168: Mech_Anims_15:assault_mech_LeftArmWeapon
+    100170: Mech_Anims_15:assault_mech_LeftFoot
+    100172: Mech_Anims_15:assault_mech_LeftFootExt1
+    100174: Mech_Anims_15:assault_mech_LeftFootExt2
+    100176: Mech_Anims_15:assault_mech_LeftFootExt3
+    100178: Mech_Anims_15:assault_mech_LeftFootExt4
+    100180: Mech_Anims_15:assault_mech_LeftFootExt5
+    100182: Mech_Anims_15:assault_mech_LeftForeArm
+    100184: Mech_Anims_15:assault_mech_LeftForeArmWeapon
+    100186: Mech_Anims_15:assault_mech_LeftLeg
+    100188: Mech_Anims_15:assault_mech_LeftLegHelper
+    100190: Mech_Anims_15:assault_mech_leftLegPiston
+    100192: Mech_Anims_15:assault_mech_LeftUpLeg
+    100194: Mech_Anims_15:assault_mech_RightArm
+    100196: Mech_Anims_15:assault_mech_RightArmRocket
+    100198: Mech_Anims_15:assault_mech_RightArmRocketDown
+    100200: Mech_Anims_15:assault_mech_RightArmRocketUp
+    100202: Mech_Anims_15:assault_mech_RightArmWeapon
+    100204: Mech_Anims_15:assault_mech_RightFoot
+    100206: Mech_Anims_15:assault_mech_RightFootExt1
+    100208: Mech_Anims_15:assault_mech_RightFootExt2
+    100210: Mech_Anims_15:assault_mech_RightFootExt3
+    100212: Mech_Anims_15:assault_mech_RightFootExt4
+    100214: Mech_Anims_15:assault_mech_RightFootExt5
+    100216: Mech_Anims_15:assault_mech_RightForeArm
+    100218: Mech_Anims_15:assault_mech_RightForeArmWeapon
+    100220: Mech_Anims_15:assault_mech_RightLeg
+    100222: Mech_Anims_15:assault_mech_RightLegHelper
+    100224: Mech_Anims_15:assault_mech_RightLegPiston
+    100226: Mech_Anims_15:assault_mech_RightUpLeg
+    100228: Mech_Anims_15:assault_mech_Root
+    100230: Mech_Anims_15:Mesh
+    100232: Mech_Anims_15:Skeleton
+    100234: Mech_Anims_15:assault_mech
+    100236: Mech_Anims_15:assault_mech_Chest_CTL
+    100238: Mech_Anims_15:assault_mech_Chest_G1
+    100240: Mech_Anims_15:assault_mech_ChestRotate_CTL
+    100242: Mech_Anims_15:assault_mech_ChestRotate_G
+    100244: Mech_Anims_15:assault_mech_Hips_CTL
+    100246: Mech_Anims_15:assault_mech_Hips_G
+    100248: Mech_Anims_15:assault_mech_HipsRotate_CTL
+    100250: Mech_Anims_15:assault_mech_HipsRotate_G
+    100252: Mech_Anims_15:assault_mech_Left_Arm_CTL
+    100254: Mech_Anims_15:assault_mech_Left_Arm_G
+    100256: Mech_Anims_15:assault_mech_Left_Eblow_CTL
+    100258: Mech_Anims_15:assault_mech_Left_Eblow_G4
+    100260: Mech_Anims_15:assault_mech_Left_Eblow_G5
+    100262: Mech_Anims_15:assault_mech_Left_EblowHeler_CTL
+    100264: Mech_Anims_15:assault_mech_Left_EblowShoot_CTL
+    100266: Mech_Anims_15:assault_mech_Left_EblowShoot_G
+    100268: Mech_Anims_15:assault_mech_Left_Finger1_CTL
+    100270: Mech_Anims_15:assault_mech_Left_Finger1_G
+    100272: Mech_Anims_15:assault_mech_Left_Finger1_SDK
+    100274: Mech_Anims_15:assault_mech_Left_Finger2_CTL
+    100276: Mech_Anims_15:assault_mech_Left_Finger2_G
+    100278: Mech_Anims_15:assault_mech_Left_Finger2_SDK
+    100280: Mech_Anims_15:assault_mech_Left_Finger3_CTL
+    100282: Mech_Anims_15:assault_mech_Left_Finger3_G
+    100284: Mech_Anims_15:assault_mech_Left_Finger3_SDK
+    100286: Mech_Anims_15:assault_mech_Left_Finger4_CTL
+    100288: Mech_Anims_15:assault_mech_Left_Finger4_G
+    100290: Mech_Anims_15:assault_mech_Left_Finger4_SDK
+    100292: Mech_Anims_15:assault_mech_Left_Finger_CTL
+    100294: Mech_Anims_15:assault_mech_Left_Finger_G
+    100296: Mech_Anims_15:assault_mech_Left_Finger_SDK
+    100298: Mech_Anims_15:assault_mech_Left_Foot_CTL
+    100300: Mech_Anims_15:assault_mech_Left_Foot_G
+    100302: Mech_Anims_15:assault_mech_Left_FootHelper_CTL
+    100304: Mech_Anims_15:assault_mech_Left_FootHelper_G
+    100306: Mech_Anims_15:assault_mech_Left_Knee_CTL
+    100308: Mech_Anims_15:assault_mech_Left_Knee_G
+    100310: Mech_Anims_15:assault_mech_Left_Rocket_CTL
+    100312: Mech_Anims_15:assault_mech_Left_Rocket_G
+    100314: Mech_Anims_15:assault_mech_Left_RocketDown_CTL
+    100316: Mech_Anims_15:assault_mech_Left_RocketDown_G
+    100318: Mech_Anims_15:assault_mech_Left_RocketUp_CTL
+    100320: Mech_Anims_15:assault_mech_Left_RocketUp_G
+    100322: Mech_Anims_15:assault_mech_Left_Shoulder_CTL
+    100324: Mech_Anims_15:assault_mech_Left_Shoulder_G
+    100326: Mech_Anims_15:assault_mech_Left_Weapon_CTL
+    100328: Mech_Anims_15:assault_mech_Left_Weapon_G1
+    100330: Mech_Anims_15:assault_mech_LeftLegPiston_Helper
+    100332: Mech_Anims_15:assault_mech_LeftLegPiston_HelperGroup
+    100334: Mech_Anims_15:assault_mech_Right_Eblow_CTL
+    100336: Mech_Anims_15:assault_mech_Right_Eblow_G
+    100338: Mech_Anims_15:assault_mech_Right_EblowRotateHelper_CTL
+    100340: Mech_Anims_15:assault_mech_Right_EblowShoot_CTL
+    100342: Mech_Anims_15:assault_mech_Right_EblowShoot_G
+    100344: Mech_Anims_15:assault_mech_Right_Finger1_CTL
+    100346: Mech_Anims_15:assault_mech_Right_Finger1_G
+    100348: Mech_Anims_15:assault_mech_Right_Finger1_SDK
+    100350: Mech_Anims_15:assault_mech_Right_Finger2_CTL
+    100352: Mech_Anims_15:assault_mech_Right_Finger2_G
+    100354: Mech_Anims_15:assault_mech_Right_Finger2_SDK
+    100356: Mech_Anims_15:assault_mech_Right_Finger3_CTL
+    100358: Mech_Anims_15:assault_mech_Right_Finger3_G
+    100360: Mech_Anims_15:assault_mech_Right_Finger3_SDK
+    100362: Mech_Anims_15:assault_mech_Right_Finger4_CTL
+    100364: Mech_Anims_15:assault_mech_Right_Finger4_G
+    100366: Mech_Anims_15:assault_mech_Right_Finger4_SDK
+    100368: Mech_Anims_15:assault_mech_Right_Finger_CTL
+    100370: Mech_Anims_15:assault_mech_Right_Finger_G
+    100372: Mech_Anims_15:assault_mech_Right_Finger_SDK
+    100374: Mech_Anims_15:assault_mech_Right_Foot_CTL
+    100376: Mech_Anims_15:assault_mech_Right_Foot_G
+    100378: Mech_Anims_15:assault_mech_Right_FootHelper_CTL
+    100380: Mech_Anims_15:assault_mech_Right_FootHelper_G
+    100382: Mech_Anims_15:assault_mech_Right_Knee_CTL
+    100384: Mech_Anims_15:assault_mech_Right_Knee_G
+    100386: Mech_Anims_15:assault_mech_Right_Rocket_CTL
+    100388: Mech_Anims_15:assault_mech_Right_Rocket_G
+    100390: Mech_Anims_15:assault_mech_Right_RocketDown_CTL
+    100392: Mech_Anims_15:assault_mech_Right_RocketDown_G
+    100394: Mech_Anims_15:assault_mech_Right_RocketUp_CTL
+    100396: Mech_Anims_15:assault_mech_Right_RocketUp_G
+    100398: Mech_Anims_15:assault_mech_Right_Shoulder_CTL
+    100400: Mech_Anims_15:assault_mech_Right_Shoulder_G
+    100402: Mech_Anims_15:assault_mech_Right_Weapon_CTL
+    100404: Mech_Anims_15:assault_mech_Right_Weapon_G
+    100406: Mech_Anims_15:assault_mech_RightLegPiston_Helper
+    100408: Mech_Anims_15:assault_mech_RightLegPiston_HelperGroup
+    100410: Mech_Anims_15:assault_mech_Root_CTL
+    100412: Mech_Anims_15:assault_mech_Root_G
+    100414: Mech_Anims_15:CTL
+    100416: Mech_Anims_15:Helpers
+    100418: Mech_Anims_15:LeftFootIKHandle
+    100420: Mech_Anims_15:RightFootIkHandle
+    100422: Mech_Anims_15:Trajectory
+    100424: Mech_Anims_15:Trajectory_G
+    400000: //RootNode
+    400002: assault_mech
+    400004: assault_mech_Chest
+    400006: assault_mech_Hips
+    400008: assault_mech_LeftArm
+    400010: assault_mech_LeftArmRocket
+    400012: assault_mech_LeftArmRocketDown
+    400014: assault_mech_LeftArmRocketUp
+    400016: assault_mech_LeftArmWeapon
+    400018: assault_mech_LeftFoot
+    400020: assault_mech_LeftFootExt1
+    400022: assault_mech_LeftFootExt2
+    400024: assault_mech_LeftFootExt3
+    400026: assault_mech_LeftFootExt4
+    400028: assault_mech_LeftFootExt5
+    400030: assault_mech_LeftForeArm
+    400032: assault_mech_LeftForeArmWeapon
+    400034: assault_mech_LeftLeg
+    400036: assault_mech_LeftLegHelper
+    400038: assault_mech_leftLegPiston
+    400040: assault_mech_LeftUpLeg
+    400042: assault_mech_RightArm
+    400044: assault_mech_RightArmRocket
+    400046: assault_mech_RightArmRocketDown
+    400048: assault_mech_RightArmRocketUp
+    400050: assault_mech_RightArmWeapon
+    400052: assault_mech_RightFoot
+    400054: assault_mech_RightFootExt1
+    400056: assault_mech_RightFootExt2
+    400058: assault_mech_RightFootExt3
+    400060: assault_mech_RightFootExt4
+    400062: assault_mech_RightFootExt5
+    400064: assault_mech_RightForeArm
+    400066: assault_mech_RightForeArmWeapon
+    400068: assault_mech_RightLeg
+    400070: assault_mech_RightLegHelper
+    400072: assault_mech_RightLegPiston
+    400074: assault_mech_RightUpLeg
+    400076: assault_mech_Root
+    400078: Mech_Anims_15SkelMesh:assault_mech
+    400080: Mech_Anims_15SkelMesh:assault_mech_Chest
+    400082: Mech_Anims_15SkelMesh:assault_mech_Hips
+    400084: Mech_Anims_15SkelMesh:assault_mech_LeftArm
+    400086: Mech_Anims_15SkelMesh:assault_mech_LeftArmRocket
+    400088: Mech_Anims_15SkelMesh:assault_mech_LeftArmRocketDown
+    400090: Mech_Anims_15SkelMesh:assault_mech_LeftArmRocketUp
+    400092: Mech_Anims_15SkelMesh:assault_mech_LeftArmWeapon
+    400094: Mech_Anims_15SkelMesh:assault_mech_LeftFoot
+    400096: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt1
+    400098: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt2
+    400100: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt3
+    400102: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt4
+    400104: Mech_Anims_15SkelMesh:assault_mech_LeftFootExt5
+    400106: Mech_Anims_15SkelMesh:assault_mech_LeftForeArm
+    400108: Mech_Anims_15SkelMesh:assault_mech_LeftForeArmWeapon
+    400110: Mech_Anims_15SkelMesh:assault_mech_LeftLeg
+    400112: Mech_Anims_15SkelMesh:assault_mech_LeftLegHelper
+    400114: Mech_Anims_15SkelMesh:assault_mech_leftLegPiston
+    400116: Mech_Anims_15SkelMesh:assault_mech_LeftUpLeg
+    400118: Mech_Anims_15SkelMesh:assault_mech_RightArm
+    400120: Mech_Anims_15SkelMesh:assault_mech_RightArmRocket
+    400122: Mech_Anims_15SkelMesh:assault_mech_RightArmRocketDown
+    400124: Mech_Anims_15SkelMesh:assault_mech_RightArmRocketUp
+    400126: Mech_Anims_15SkelMesh:assault_mech_RightArmWeapon
+    400128: Mech_Anims_15SkelMesh:assault_mech_RightFoot
+    400130: Mech_Anims_15SkelMesh:assault_mech_RightFootExt1
+    400132: Mech_Anims_15SkelMesh:assault_mech_RightFootExt2
+    400134: Mech_Anims_15SkelMesh:assault_mech_RightFootExt3
+    400136: Mech_Anims_15SkelMesh:assault_mech_RightFootExt4
+    400138: Mech_Anims_15SkelMesh:assault_mech_RightFootExt5
+    400140: Mech_Anims_15SkelMesh:assault_mech_RightForeArm
+    400142: Mech_Anims_15SkelMesh:assault_mech_RightForeArmWeapon
+    400144: Mech_Anims_15SkelMesh:assault_mech_RightLeg
+    400146: Mech_Anims_15SkelMesh:assault_mech_RightLegHelper
+    400148: Mech_Anims_15SkelMesh:assault_mech_RightLegPiston
+    400150: Mech_Anims_15SkelMesh:assault_mech_RightUpLeg
+    400152: Mech_Anims_15SkelMesh:assault_mech_Root
+    400154: Mech_Anims_15:assault_mech 1
+    400156: Mech_Anims_15:assault_mech_Chest
+    400158: Mech_Anims_15:assault_mech_Hips
+    400160: Mech_Anims_15:assault_mech_LeftArm
+    400162: Mech_Anims_15:assault_mech_LeftArmRocket
+    400164: Mech_Anims_15:assault_mech_LeftArmRocketDown
+    400166: Mech_Anims_15:assault_mech_LeftArmRocketUp
+    400168: Mech_Anims_15:assault_mech_LeftArmWeapon
+    400170: Mech_Anims_15:assault_mech_LeftFoot
+    400172: Mech_Anims_15:assault_mech_LeftFootExt1
+    400174: Mech_Anims_15:assault_mech_LeftFootExt2
+    400176: Mech_Anims_15:assault_mech_LeftFootExt3
+    400178: Mech_Anims_15:assault_mech_LeftFootExt4
+    400180: Mech_Anims_15:assault_mech_LeftFootExt5
+    400182: Mech_Anims_15:assault_mech_LeftForeArm
+    400184: Mech_Anims_15:assault_mech_LeftForeArmWeapon
+    400186: Mech_Anims_15:assault_mech_LeftLeg
+    400188: Mech_Anims_15:assault_mech_LeftLegHelper
+    400190: Mech_Anims_15:assault_mech_leftLegPiston
+    400192: Mech_Anims_15:assault_mech_LeftUpLeg
+    400194: Mech_Anims_15:assault_mech_RightArm
+    400196: Mech_Anims_15:assault_mech_RightArmRocket
+    400198: Mech_Anims_15:assault_mech_RightArmRocketDown
+    400200: Mech_Anims_15:assault_mech_RightArmRocketUp
+    400202: Mech_Anims_15:assault_mech_RightArmWeapon
+    400204: Mech_Anims_15:assault_mech_RightFoot
+    400206: Mech_Anims_15:assault_mech_RightFootExt1
+    400208: Mech_Anims_15:assault_mech_RightFootExt2
+    400210: Mech_Anims_15:assault_mech_RightFootExt3
+    400212: Mech_Anims_15:assault_mech_RightFootExt4
+    400214: Mech_Anims_15:assault_mech_RightFootExt5
+    400216: Mech_Anims_15:assault_mech_RightForeArm
+    400218: Mech_Anims_15:assault_mech_RightForeArmWeapon
+    400220: Mech_Anims_15:assault_mech_RightLeg
+    400222: Mech_Anims_15:assault_mech_RightLegHelper
+    400224: Mech_Anims_15:assault_mech_RightLegPiston
+    400226: Mech_Anims_15:assault_mech_RightUpLeg
+    400228: Mech_Anims_15:assault_mech_Root
+    400230: Mech_Anims_15:Mesh
+    400232: Mech_Anims_15:Skeleton
+    400234: Mech_Anims_15:assault_mech
+    400236: Mech_Anims_15:assault_mech_Chest_CTL
+    400238: Mech_Anims_15:assault_mech_Chest_G1
+    400240: Mech_Anims_15:assault_mech_ChestRotate_CTL
+    400242: Mech_Anims_15:assault_mech_ChestRotate_G
+    400244: Mech_Anims_15:assault_mech_Hips_CTL
+    400246: Mech_Anims_15:assault_mech_Hips_G
+    400248: Mech_Anims_15:assault_mech_HipsRotate_CTL
+    400250: Mech_Anims_15:assault_mech_HipsRotate_G
+    400252: Mech_Anims_15:assault_mech_Left_Arm_CTL
+    400254: Mech_Anims_15:assault_mech_Left_Arm_G
+    400256: Mech_Anims_15:assault_mech_Left_Eblow_CTL
+    400258: Mech_Anims_15:assault_mech_Left_Eblow_G4
+    400260: Mech_Anims_15:assault_mech_Left_Eblow_G5
+    400262: Mech_Anims_15:assault_mech_Left_EblowHeler_CTL
+    400264: Mech_Anims_15:assault_mech_Left_EblowShoot_CTL
+    400266: Mech_Anims_15:assault_mech_Left_EblowShoot_G
+    400268: Mech_Anims_15:assault_mech_Left_Finger1_CTL
+    400270: Mech_Anims_15:assault_mech_Left_Finger1_G
+    400272: Mech_Anims_15:assault_mech_Left_Finger1_SDK
+    400274: Mech_Anims_15:assault_mech_Left_Finger2_CTL
+    400276: Mech_Anims_15:assault_mech_Left_Finger2_G
+    400278: Mech_Anims_15:assault_mech_Left_Finger2_SDK
+    400280: Mech_Anims_15:assault_mech_Left_Finger3_CTL
+    400282: Mech_Anims_15:assault_mech_Left_Finger3_G
+    400284: Mech_Anims_15:assault_mech_Left_Finger3_SDK
+    400286: Mech_Anims_15:assault_mech_Left_Finger4_CTL
+    400288: Mech_Anims_15:assault_mech_Left_Finger4_G
+    400290: Mech_Anims_15:assault_mech_Left_Finger4_SDK
+    400292: Mech_Anims_15:assault_mech_Left_Finger_CTL
+    400294: Mech_Anims_15:assault_mech_Left_Finger_G
+    400296: Mech_Anims_15:assault_mech_Left_Finger_SDK
+    400298: Mech_Anims_15:assault_mech_Left_Foot_CTL
+    400300: Mech_Anims_15:assault_mech_Left_Foot_G
+    400302: Mech_Anims_15:assault_mech_Left_FootHelper_CTL
+    400304: Mech_Anims_15:assault_mech_Left_FootHelper_G
+    400306: Mech_Anims_15:assault_mech_Left_Knee_CTL
+    400308: Mech_Anims_15:assault_mech_Left_Knee_G
+    400310: Mech_Anims_15:assault_mech_Left_Rocket_CTL
+    400312: Mech_Anims_15:assault_mech_Left_Rocket_G
+    400314: Mech_Anims_15:assault_mech_Left_RocketDown_CTL
+    400316: Mech_Anims_15:assault_mech_Left_RocketDown_G
+    400318: Mech_Anims_15:assault_mech_Left_RocketUp_CTL
+    400320: Mech_Anims_15:assault_mech_Left_RocketUp_G
+    400322: Mech_Anims_15:assault_mech_Left_Shoulder_CTL
+    400324: Mech_Anims_15:assault_mech_Left_Shoulder_G
+    400326: Mech_Anims_15:assault_mech_Left_Weapon_CTL
+    400328: Mech_Anims_15:assault_mech_Left_Weapon_G1
+    400330: Mech_Anims_15:assault_mech_LeftLegPiston_Helper
+    400332: Mech_Anims_15:assault_mech_LeftLegPiston_HelperGroup
+    400334: Mech_Anims_15:assault_mech_Right_Eblow_CTL
+    400336: Mech_Anims_15:assault_mech_Right_Eblow_G
+    400338: Mech_Anims_15:assault_mech_Right_EblowRotateHelper_CTL
+    400340: Mech_Anims_15:assault_mech_Right_EblowShoot_CTL
+    400342: Mech_Anims_15:assault_mech_Right_EblowShoot_G
+    400344: Mech_Anims_15:assault_mech_Right_Finger1_CTL
+    400346: Mech_Anims_15:assault_mech_Right_Finger1_G
+    400348: Mech_Anims_15:assault_mech_Right_Finger1_SDK
+    400350: Mech_Anims_15:assault_mech_Right_Finger2_CTL
+    400352: Mech_Anims_15:assault_mech_Right_Finger2_G
+    400354: Mech_Anims_15:assault_mech_Right_Finger2_SDK
+    400356: Mech_Anims_15:assault_mech_Right_Finger3_CTL
+    400358: Mech_Anims_15:assault_mech_Right_Finger3_G
+    400360: Mech_Anims_15:assault_mech_Right_Finger3_SDK
+    400362: Mech_Anims_15:assault_mech_Right_Finger4_CTL
+    400364: Mech_Anims_15:assault_mech_Right_Finger4_G
+    400366: Mech_Anims_15:assault_mech_Right_Finger4_SDK
+    400368: Mech_Anims_15:assault_mech_Right_Finger_CTL
+    400370: Mech_Anims_15:assault_mech_Right_Finger_G
+    400372: Mech_Anims_15:assault_mech_Right_Finger_SDK
+    400374: Mech_Anims_15:assault_mech_Right_Foot_CTL
+    400376: Mech_Anims_15:assault_mech_Right_Foot_G
+    400378: Mech_Anims_15:assault_mech_Right_FootHelper_CTL
+    400380: Mech_Anims_15:assault_mech_Right_FootHelper_G
+    400382: Mech_Anims_15:assault_mech_Right_Knee_CTL
+    400384: Mech_Anims_15:assault_mech_Right_Knee_G
+    400386: Mech_Anims_15:assault_mech_Right_Rocket_CTL
+    400388: Mech_Anims_15:assault_mech_Right_Rocket_G
+    400390: Mech_Anims_15:assault_mech_Right_RocketDown_CTL
+    400392: Mech_Anims_15:assault_mech_Right_RocketDown_G
+    400394: Mech_Anims_15:assault_mech_Right_RocketUp_CTL
+    400396: Mech_Anims_15:assault_mech_Right_RocketUp_G
+    400398: Mech_Anims_15:assault_mech_Right_Shoulder_CTL
+    400400: Mech_Anims_15:assault_mech_Right_Shoulder_G
+    400402: Mech_Anims_15:assault_mech_Right_Weapon_CTL
+    400404: Mech_Anims_15:assault_mech_Right_Weapon_G
+    400406: Mech_Anims_15:assault_mech_RightLegPiston_Helper
+    400408: Mech_Anims_15:assault_mech_RightLegPiston_HelperGroup
+    400410: Mech_Anims_15:assault_mech_Root_CTL
+    400412: Mech_Anims_15:assault_mech_Root_G
+    400414: Mech_Anims_15:CTL
+    400416: Mech_Anims_15:Helpers
+    400418: Mech_Anims_15:LeftFootIKHandle
+    400420: Mech_Anims_15:RightFootIkHandle
+    400422: Mech_Anims_15:Trajectory
+    400424: Mech_Anims_15:Trajectory_G
+    2300000: assault_mech
+    3300000: assault_mech
+    4300000: assault_mech
+    4300002: Mech_Anims_15SkelMesh:assault_mech
+    4300004: Mech_Anims_15:assault_mech
+    7400000: assault_mech_walk
+    7400002: assault_mech_shoot_cannons
+    7400004: assault_mech_look_left
+    7400006: assault_mech_look_right
+    7400008: assault_mech_shoot_rockets
+    7400010: assault_mech_death
+    7400012: assault_mech_run
+    7400014: assault_mech_idle
+    7400016: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: assault_mech
+    13700002: Mech_Anims_15SkelMesh:assault_mech
+    13700004: Mech_Anims_15:assault_mech 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''assault_mech'' conversion failed: Required human bone ''Head''
+      not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.3
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: assault_mech_walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_shoot_cannons
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 0
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_look_left
+      takeName: Take 001
+      firstFrame: 171
+      lastFrame: 271
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_look_right
+      takeName: Take 001
+      firstFrame: 291
+      lastFrame: 371
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_shoot_rockets
+      takeName: Take 001
+      firstFrame: 371
+      lastFrame: 481
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_death
+      takeName: Take 001
+      firstFrame: 481
+      lastFrame: 535
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_run
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 624
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: assault_mech_idle
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: assault_mech
+        weight: 1
+      - path: assault_mech_Root
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmRocket/assault_mech_LeftArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_LeftArm/assault_mech_LeftForeArm/assault_mech_LeftForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketDown
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmRocket/assault_mech_RightArmRocketUp
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_Chest/assault_mech_RightArm/assault_mech_RightForeArm/assault_mech_RightForeArmWeapon
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_LeftFoot/assault_mech_LeftFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_LeftUpLeg/assault_mech_LeftLeg/assault_mech_leftLegPiston
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightLegHelper
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt1
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt2
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt3
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt4
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightFoot/assault_mech_RightFootExt5
+        weight: 1
+      - path: assault_mech_Root/assault_mech_Hips/assault_mech_RightUpLeg/assault_mech_RightLeg/assault_mech_RightLegPiston
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: assault_mech_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftForeArmWeapon
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightForeArmWeapon
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_LeftFootExt3
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: assault_mech_RightFootExt3
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: assault_mech(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_Root
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_Hips
+      position: {x: -0.0000019669533, y: 4.8453627, z: -0.009307975}
+      rotation: {x: 0, y: 0, z: 0.045231715, w: 0.9989765}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_Chest
+      position: {x: 0.084410205, y: 0.93022054, z: 5.551115e-17}
+      rotation: {x: 0.04388764, y: -0.01270189, z: -0.071268804, w: 0.99641025}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftArm
+      position: {x: -1.2624147, y: 1.2767075, z: -0.47704646}
+      rotation: {x: -0.04554151, y: -0.0014587413, z: -0.0026030827, w: 0.99895805}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftArmWeapon
+      position: {x: -1.3572431, y: -0.15703267, z: 0.06402095}
+      rotation: {x: 0.014833919, y: -0, z: -0, w: 0.99988997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftForeArm
+      position: {x: -2.4335976, y: -0.23728596, z: 0.20947073}
+      rotation: {x: 0.020874431, y: 0.023253763, z: -0.69614345, w: 0.71722233}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftForeArmWeapon
+      position: {x: 0.048004437, y: -1.2026074, z: 0.01434886}
+      rotation: {x: 0.13139583, y: 0.0023476644, z: 0.02691079, w: 0.9909619}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftArmRocket
+      position: {x: -0.93664914, y: 0.39983234, z: -0.5378669}
+      rotation: {x: 0.023542644, y: -0, z: -0, w: 0.99972284}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftArmRocketDown
+      position: {x: 0.043591913, y: 0.47043353, z: 0.9046472}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftArmRocketUp
+      position: {x: 0.043591913, y: 1.2302421, z: 0.9046472}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightArm
+      position: {x: 1.2624118, y: 1.2767118, z: -0.47704634}
+      rotation: {x: 0.9969345, y: 0.053887177, z: -0.032296356, w: 0.046634533}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightArmWeapon
+      position: {x: 1.3406756, y: 0.16024221, z: -0.121402755}
+      rotation: {x: 0.014833796, y: -0, z: -0, w: 0.99988997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightForeArm
+      position: {x: 2.4307804, y: 0.3084895, z: -0.20956542}
+      rotation: {x: -0.04183818, y: -0.033164013, z: -0.69295734, w: 0.7189993}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightForeArmWeapon
+      position: {x: -0.04190205, y: 1.129769, z: -0.036517106}
+      rotation: {x: 0.049439225, y: 0.0008833363, z: 0.027113015, w: 0.9984087}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightArmRocket
+      position: {x: 0.93665, y: -0.39982542, z: 0.537863}
+      rotation: {x: 0.019902602, y: -0, z: -0, w: 0.99980193}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightArmRocketDown
+      position: {x: -0.04359, y: -0.4704354, z: -0.904643}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightArmRocketUp
+      position: {x: -0.04359, y: -1.230245, z: -0.904643}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftUpLeg
+      position: {x: -1.5406976, y: -8.881784e-16, z: -0.15300852}
+      rotation: {x: 0.123521715, y: 0.03384059, z: 0.06654125, w: 0.9895299}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftLeg
+      position: {x: -0.82824576, y: -2.0099158, z: 0.07961946}
+      rotation: {x: 0.55068815, y: -0.15858991, z: 0.020380123, w: 0.8192536}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftFoot
+      position: {x: -0, y: -0.012542176, z: 1.6140889}
+      rotation: {x: -0.5563098, y: -0.023069222, z: -0.10242428, w: 0.8243158}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftFootExt4
+      position: {x: 0.018154053, y: -0.8453179, z: -0.54554886}
+      rotation: {x: -0.003009102, y: 0.958766, z: -0.2839994, w: 0.010158496}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftFootExt1
+      position: {x: -0.2060208, y: -0.91154706, z: 0.0059290826}
+      rotation: {x: 0.16966361, y: -0.7620775, z: 0.23719864, w: 0.5780908}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftFootExt2
+      position: {x: -0.23519404, y: -0.91154706, z: 1.0016915}
+      rotation: {x: 0.2796975, y: -0.13430083, z: 0.049335502, w: 0.94936746}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftFootExt3
+      position: {x: 0.33272877, y: -0.86734635, z: 0.982243}
+      rotation: {x: 0.24510416, y: 0.1535833, z: -0.068326876, w: 0.9548128}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftFootExt5
+      position: {x: 0.4166779, y: -0.8453179, z: 0.0049556457}
+      rotation: {x: 0.19622992, y: 0.6624611, z: -0.20532544, w: 0.6931671}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_leftLegPiston
+      position: {x: 0.17857777, y: 0.44132313, z: 0.3103669}
+      rotation: {x: 0.042796623, y: 0.012767817, z: -0.02517463, w: 0.998685}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightUpLeg
+      position: {x: 1.5407017, y: 0.0000043085342, z: -0.15300833}
+      rotation: {x: 0.9692148, y: -0.15980634, z: 0.11013214, w: -0.1515111}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightLeg
+      position: {x: 0.82824, y: 2.0099194, z: -0.07961768}
+      rotation: {x: 0.51510113, y: -0.14495079, z: -0.030489083, w: 0.8442337}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightFoot
+      position: {x: -0, y: 0.012538867, z: -1.6140895}
+      rotation: {x: -0.64783525, y: -0.023883611, z: 0.01949102, w: 0.7611565}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightFootExt4
+      position: {x: -0.01815, y: 0.845322, z: 0.545548}
+      rotation: {x: 6.1877656e-17, y: 0.9999439, z: -6.1877656e-17, w: 0.01059479}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightFootExt1
+      position: {x: 0.20602, y: 0.911551, z: -0.005929}
+      rotation: {x: -2.900766e-19, y: -0.70947146, z: 2.900766e-19, w: 0.70473415}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightFootExt2
+      position: {x: 0.2352, y: 0.911551, z: -1.001692}
+      rotation: {x: 4.159315e-16, y: -0.14006892, z: -3.868949e-15, w: 0.9901418}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightFootExt3
+      position: {x: -0.33273, y: 0.867351, z: -0.982243}
+      rotation: {x: -1.2915356e-16, y: 0.1252415, z: 3.3778485e-18, w: 0.9921263}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightFootExt5
+      position: {x: -0.41668, y: 0.845322, z: -0.004956}
+      rotation: {x: -1.3079705e-16, y: 0.6909131, z: 3.0886437e-16, w: 0.7229378}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightLegPiston
+      position: {x: 0.0010615181, y: -0.47320625, z: -0.3128072}
+      rotation: {x: 0.99851084, y: 0.031930197, z: 0.006304966, w: -0.0437822}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_LeftLegHelper
+      position: {x: -0.4699135, y: -0.104783766, z: -0.047234293}
+      rotation: {x: 0.20229022, y: -0, z: -0, w: 0.97932565}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: assault_mech_RightLegHelper
+      position: {x: 0.5407516, y: -0.104783766, z: -0.047234293}
+      rotation: {x: -0.06930672, y: 0, z: -0, w: 0.9975954}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: assault_mech
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

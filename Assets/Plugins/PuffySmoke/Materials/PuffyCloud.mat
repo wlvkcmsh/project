@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PuffyCloud
+  m_Shader: {fileID: 4800000, guid: 98640db0e2a9236429b24941c8ad0807, type: 3}
+  m_ShaderKeywords: CLOUDS_ON END_DETAILS_ON EXTRA_LIGHTS_ON START_DETAILS_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 790a1477062ad0d4ebefd7315b75d5ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 460a39ae632edeb47b9dc481aef58f79, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: e0fd6a4930877cf46b85cf41927c84db, type: 3}
+          m_Scale: {x: 0.4, y: 0.4}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 1
+      data:
+        first:
+          name: _Shininess
+        second: 0.078125
+      data:
+        first:
+          name: _CloudMode
+        second: 1
+      data:
+        first:
+          name: _Sharpness
+        second: 0.6
+      data:
+        first:
+          name: _DetailsHSpeed
+        second: 0
+      data:
+        first:
+          name: _DetailsVSpeed
+        second: -0.02
+      data:
+        first:
+          name: _SharpnessSmall
+        second: 0.43
+      data:
+        first:
+          name: _DetailsHSpeed2
+        second: 0
+      data:
+        first:
+          name: _DetailsVSpeed2
+        second: 0.05
+      data:
+        first:
+          name: _DetailsFading
+        second: 0.71
+      data:
+        first:
+          name: _DetailsFadingLimit
+        second: 10
+      data:
+        first:
+          name: _FadeIn
+        second: 0.0001
+      data:
+        first:
+          name: _Opacity
+        second: 0.4
+      data:
+        first:
+          name: _Density
+        second: 0
+      data:
+        first:
+          name: _EmissiveDensity
+        second: 0
+      data:
+        first:
+          name: _Scattering
+        second: 0
+      data:
+        first:
+          name: _ExtraLightsIntensity
+        second: 1
+      data:
+        first:
+          name: _ElapsedTime
+        second: 1
+      data:
+        first:
+          name: _InvFade
+        second: 0.01
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+      data:
+        first:
+          name: _DetailsSpeed
+        second: -0.022388058
+      data:
+        first:
+          name: _DetailsSpeedSmall
+        second: 0.035820894
+      data:
+        first:
+          name: _LightIntensity
+        second: 2
+      data:
+        first:
+          name: _DetailsFadeout
+        second: 0
+      data:
+        first:
+          name: _LightProgression
+        second: 0.58208954
+      data:
+        first:
+          name: _MaxOpacity
+        second: 0.261194
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ShadowColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _EnvironmentColor
+        second: {r: 0, g: 0, b: 0.36862746, a: 1}
+      data:
+        first:
+          name: _BillboardsNormal
+        second: {r: 0, g: 1, b: 0, a: 1}
