@@ -61,7 +61,6 @@ public class EventManager : MonoBehaviour {
     {
         if (curEvent.isFinish == true && curEventNum<(maxEventNum-1))
         {
-
             ChangeEvent();
         }
 

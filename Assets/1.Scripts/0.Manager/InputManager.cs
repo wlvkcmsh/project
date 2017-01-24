@@ -24,7 +24,8 @@ public class InputManager : MonoBehaviour {
     public float force;
     EventManager eventMgr;
     UIManger UIMgr;
-    
+
+    private Gun gun;
 
     private static InputManager s_Instance = null;
     public static InputManager Instance
@@ -48,6 +49,8 @@ public class InputManager : MonoBehaviour {
         }
         s_Instance = this;
         Debug.Log("InputManager Awake");
+
+        gun = GetComponent<Gun>();
     }
     void Start()
     {
@@ -70,54 +73,7 @@ public class InputManager : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Shoot!!!");
-            PressedShoot();
+            gun.Shoot();
         }
-    }
-    
-    void PressedShoot()
-    {
-
-        mainCamera = eventMgr.curEvent.CurCamera.transform.GetChild(1).GetComponent<Camera>();
-
-
-        /*if (fireTime >= fireInterval)
-        {
-
-            fireTime = 0.0f;
-        }*/
-
-        ///총알
-        Bullet_Emitter.position = mainCamera.transform.position;
-        Bullet_Emitter.rotation = mainCamera.transform.rotation;
-
-        
-
-        ////////////
-
-        Vector3 crossHairScreenPos = UIMgr.camUI.WorldToScreenPoint(UIMgr.goCrossHairs[0].transform.position);
-        Ray ray = mainCamera.ScreenPointToRay(crossHairScreenPos);
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-        {
-            Debug.Log("나가라레이캐스트");
-            Debug.DrawRay(ray.origin, ray.direction * 100f, Color.green, 10f);
-
-            GameObject Temporary_Bullet_Handler;
-
-            Temporary_Bullet_Handler = Instantiate(Bullet, mainCamera.transform.position, Bullet_Emitter.transform.rotation) as GameObject;
-            //Temporary_Bullet_Handler.transform.Rotate(Vector3.forward * 270);
-            Rigidbody Tempory_RigidBody;
-            Tempory_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
-            Tempory_RigidBody.AddForce(ray.direction * Bullet_Forward_Force);
-
-            Destroy(Temporary_Bullet_Handler, 4.0f);
-
-            if (hit.collider.gameObject.tag == "ENEMY")
-            {
-                hit.rigidbody.AddForceAtPosition(ray.direction* force, hit.point);
-                //Instantiate(shootEffect, hit.point, Quaternion.identity);
-                Debug.Log(hit.point);
-            }
-        }
-
     }
 }

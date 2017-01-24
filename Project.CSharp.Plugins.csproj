@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -161,6 +155,14 @@
     <None Include="Assets\8.ETC\ScreenFader\Unlit Transparent HUD.shader" />
     <None Include="Assets\8.ETC\misile\Plugins\PuffySmoke\Shaders\PuffySmoke.shader" />
     <None Include="Assets\8.ETC\misile\Plugins\PuffySmoke\Shaders\RawVertexColors.shader" />
+    <None Include="Assets\KriptoFX\Readme.txt" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsDistortionCullBack.shader" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsDistortionParticlesCutout.shader" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsGlowAdditive.shader" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsGlowAdditiveMobile.shader" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendInterpolated.shader" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendLight.shader" />
+    <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendLightSoft.shader" />
     <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
