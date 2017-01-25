@@ -26,6 +26,12 @@ public class Gun : MonoBehaviour {
     public GameObject crossHair;
     public GameObject shootEffect;
 
+
+    public int gundamage = 1;
+    public float hitForce = 100f;
+    Animation ani;
+
+
     public Camera viewCamera;
 
 
@@ -43,6 +49,9 @@ public class Gun : MonoBehaviour {
         muzzleVelocity = 35;
         shootInterval = 100;
         force = 300f;
+        //ani.enabled = true;
+       
+    
     }
 
     void Update()
@@ -65,10 +74,22 @@ public class Gun : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
+                //ani.Play();
                 Debug.DrawRay(ray.origin, ray.direction * 100f, Color.green, 10f);
                 if (hit.collider.gameObject.tag == "ENEMY")
                 {
                     Instantiate(shootEffect, hit.point, Quaternion.identity);
+
+                    Enemy health = hit.collider.GetComponent<Enemy>();
+                    if (health != null)
+                    {
+                        health.Damage(gundamage);
+                    }
+
+                    if (hit.rigidbody != null)
+                    {
+                        hit.rigidbody.AddForce(-hit.normal * hitForce);
+                    }
                 }
             }
 
