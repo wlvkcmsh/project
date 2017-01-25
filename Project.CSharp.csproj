@@ -99,13 +99,11 @@
     <Compile Include="Assets\1.Scripts\PlayerCtrl.cs" />
     <Compile Include="Assets\1.Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Crosshair.cs" />
-    <Compile Include="Assets\1.Scripts\Yoon\Crosshair_test.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Explosion.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Fire.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Gun.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\GunController.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\MuzzleFlash.cs" />
-    <Compile Include="Assets\1.Scripts\Yoon\Player.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Projectile.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Shell.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\setSpeedBullet.cs" />
