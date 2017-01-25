@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{72D92BD3-4735-DFF1-3920-A6487A55DD07}</ProjectGuid>
+    <ProjectGuid>{E5CBE246-8EB8-B768-7536-AD1E3F83F9AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -82,7 +82,6 @@
      <Compile Include="Assets\laser\Scripts\Editor\VolumetricLineStripBehavior.cs" />
      <Compile Include="Assets\laser\Scripts\Editor\VolumetricLineStripBehaviorEditor.cs" />
      <Compile Include="Assets\laser\Scripts\Editor\VolumetricMultiLineBehavior.cs" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsDistortionParticlesCutout.shader" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -90,8 +89,6 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\PostApo\Tools\Blend SM2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendInterpolated.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsDistortionCullBack.shader" />
      <None Include="Assets\8.ETC\misile\Plugins\PuffySmoke\Shaders\PuffySmoke.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\5.Fonts\11.txt" />
@@ -125,7 +122,6 @@
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-AlphaTest-Diffuse.shader" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\BasicVertexLitColored.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-Diffuse.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendLightSoft.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
@@ -147,7 +143,6 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsGlowAdditive.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\PostApo\Tools\Blend SM3.shader" />
@@ -173,7 +168,6 @@
      <None Include="Assets\Puffy_Smoke_Readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\KriptoFX\Readme.txt" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -181,7 +175,6 @@
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\DecalSystem.Runtime.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsGlowAdditiveMobile.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-AlphaTest-TargetBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
@@ -203,13 +196,12 @@
      <None Include="Assets\Plugins\PuffySmoke\Shaders\FakedVolumetric_smoke_medium.shader" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\DebugNormals.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendLight.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-TargetBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/admin/Desktop/robot2/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/back - 복사본/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -236,10 +228,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Runtime">
- <HintPath>C:/Users/admin/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/back - 복사본/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Editor">
- <HintPath>C:/Users/admin/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/back - 복사본/Assets/Ruins/Scripts/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -250,9 +242,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{80C216DC-DE96-AE4D-C507-944B03C5E477}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{DDC40CC7-801B-FB39-7F64-763B723FCFFF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7F9E5683-F18A-C502-C11F-280B23AB059F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{8886A5B7-C09B-A4C2-DAAD-23D40B9EAC49}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
