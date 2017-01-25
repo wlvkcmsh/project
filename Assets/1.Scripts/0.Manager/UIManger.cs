@@ -5,11 +5,8 @@ public class UIManger : MonoBehaviour
 {
     private static UIManger s_Instance = null;
 
-
-
     public const int userNum = 2;
     EventManager eventMgr;
-
 
     public GameObject[] goCrossHairs = new GameObject[userNum];
     public GameObject[] goScores = new GameObject[userNum];
