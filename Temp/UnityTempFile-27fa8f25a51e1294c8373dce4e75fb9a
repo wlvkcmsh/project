@@ -1,0 +1,236 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_1
+-define:UNITY_5_4
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+Assets/0.Scene/AnPrefab/AnAddForce.cs
+Assets/0.Scene/AnPrefab/AnBulletBombAddForce.cs
+Assets/0.Scene/AnPrefab/AnEnemy2AniCtl.cs
+Assets/0.Scene/AnPrefab/AnEnemy2Attack.cs
+Assets/0.Scene/AnPrefab/AnEnemyFire.cs
+Assets/0.Scene/AnPrefab/AnLaserFire.cs
+Assets/0.Scene/AnPrefab/AnTransparent.cs
+Assets/0.Scene/AnPrefab/AnenemyDie.cs
+Assets/0.Scene/AnPrefab/BulletBombAddForce.cs
+Assets/0.Scene/AnPrefab/LookAt.cs
+Assets/1.Scripts/0.Manager/EnemyManger.cs
+Assets/1.Scripts/0.Manager/EventManager.cs
+Assets/1.Scripts/0.Manager/GameManager.cs
+Assets/1.Scripts/0.Manager/InputManager.cs
+Assets/1.Scripts/0.Manager/ObjectManager.cs
+Assets/1.Scripts/0.Manager/SoundManager.cs
+Assets/1.Scripts/0.Manager/UIManger.cs
+Assets/1.Scripts/1.Animation/AnimRandomStart.cs
+Assets/1.Scripts/BulletCtrl.cs
+Assets/1.Scripts/Cyh/Enemy.cs
+Assets/1.Scripts/DestroyEffect.cs
+Assets/1.Scripts/FireCtrl.cs
+Assets/1.Scripts/FirstPersonController.cs
+Assets/1.Scripts/Fueltank.cs
+Assets/1.Scripts/HeadBob.cs
+Assets/1.Scripts/PlayerCtrl.cs
+Assets/1.Scripts/RigidbodyFirstPersonController.cs
+Assets/1.Scripts/Yoon/Crosshair.cs
+Assets/1.Scripts/Yoon/Crosshair_test.cs
+Assets/1.Scripts/Yoon/Explosion.cs
+Assets/1.Scripts/Yoon/Fire.cs
+Assets/1.Scripts/Yoon/Gun.cs
+Assets/1.Scripts/Yoon/GunController.cs
+Assets/1.Scripts/Yoon/MuzzleFlash.cs
+Assets/1.Scripts/Yoon/Player.cs
+Assets/1.Scripts/Yoon/Projectile.cs
+Assets/1.Scripts/Yoon/Shell.cs
+Assets/1.Scripts/Yoon/setSpeedBullet.cs
+Assets/1.Scripts/enemy.cs
+Assets/1.Scripts/eventCtrl.cs
+Assets/1.Scripts/towerAi.cs
+Assets/2.Sprites/CamMove.cs
+Assets/8.ETC/ScreenFader/ScreenFadeControl.cs
+Assets/8.ETC/ScreenFader/ScreenFader.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/PerlinNoise.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_Cloud.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_Emitter.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_Gradient.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_MeshSpawner.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_MultiSpawner.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_ParticleSpawner.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_PerlinCloud.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_Renderer.cs
+Assets/8.ETC/misile/Plugins/PuffySmoke/Scripts/Puffy_ShapeSpawner.cs
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/HomingMissiles/HomingMissile.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/HomingMissiles/MissileLauncher.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/HomingMissiles/MissilesGuiControls.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Movements/FollowMouse.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Movements/FreeMove.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Movements/RandomMove.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Movements/RandomRotate.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Others/FPScounter.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Others/GPURenderTime.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Others/GuiControls.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Others/MultiSpawnerArray.cs"
+"Assets/8.ETC/misile/PuffySmoke sample scenes/Scripts/Others/ScreenPosition.cs"
+Assets/9.Model/assault_mechRev/getBottom.cs
+Assets/KriptoFX/DemoSources/ExplosionDemoGUI.cs
+Assets/KriptoFX/DemoSources/ExplosionDemoReactivator.cs
+Assets/KriptoFX/DemoSources/ExplosionPlatformActivator.cs
+Assets/KriptoFX/DemoSources/ExplosionsFPS.cs
+Assets/KriptoFX/Scripts/ExplosionsBillboard.cs
+Assets/KriptoFX/Scripts/ExplosionsDeactivateRendererByTime.cs
+Assets/KriptoFX/Scripts/ExplosionsLightCurves.cs
+Assets/KriptoFX/Scripts/ExplosionsParticleSystemScaler.cs
+Assets/KriptoFX/Scripts/ExplosionsScaleCurves.cs
+Assets/KriptoFX/Scripts/ExplosionsShaderColorGradient.cs
+Assets/KriptoFX/Scripts/ExplosionsShaderFloatCurves.cs
+Assets/KriptoFX/Scripts/ExplosionsShaderQueue.cs
+Assets/KriptoFX/Scripts/ExplosionsSpriteSheetAnimation.cs
+Assets/OVR/Moonlight/Scripts/OVRDebugHeadController.cs
+Assets/OVR/Moonlight/Scripts/OVROverlay.cs
+Assets/OVR/Moonlight/Scripts/OVRPlatformMenu.cs
+Assets/OVR/Moonlight/Scripts/OVRTouchpad.cs
+Assets/OVR/Moonlight/Scripts/OVRVolumeControl.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRChromaticAberration.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRDebugGraph.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRInputControl.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRModeParms.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRMonoscopic.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRResetOrientation.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRWaitCursor.cs
+Assets/OVR/Scripts/OVRCameraRig.cs
+Assets/OVR/Scripts/OVRCommon.cs
+Assets/OVR/Scripts/OVRDisplay.cs
+Assets/OVR/Scripts/OVRInput.cs
+Assets/OVR/Scripts/OVRManager.cs
+Assets/OVR/Scripts/OVROnCompleteListener.cs
+Assets/OVR/Scripts/OVRPlugin.cs
+Assets/OVR/Scripts/OVRProfile.cs
+Assets/OVR/Scripts/OVRTracker.cs
+Assets/OVR/Scripts/Util/OVRDebugInfo.cs
+Assets/OVR/Scripts/Util/OVRGamepadController.cs
+Assets/OVR/Scripts/Util/OVRGridCube.cs
+Assets/OVR/Scripts/Util/OVRPlayerController.cs
+Assets/OVR/Scripts/Util/OVRSceneSampleController.cs
+Assets/OVR/Scripts/Util/OVRScreenFade.cs
+Assets/OVR/Scripts/Util/OVRTrackerBounds.cs
+Assets/Ruins/Scripts/CameraShake.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/Decals/DS_DecalProjector.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/Decals/DS_DecalProjectorGroup.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/Decals/DS_Decals.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/Decals/Renderer/DS_DecalsMeshRenderer.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/SkinnedDecals/DS_SkinnedDecalProjector.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/SkinnedDecals/DS_SkinnedDecalProjectorGroup.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/SkinnedDecals/DS_SkinnedDecals.cs
+Assets/Ruins/Scripts/Plugins/Decals/Scripts/Decals/SkinnedDecals/Renderer/DS_SkinnedDecalsMeshRenderer.cs
+"Assets/TEST_ASSET/Detonator Explosion Framework/Sample Supporting Emitters/DetonatorSprayHelper.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/Detonator.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorBurstEmitter.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorCloudRing.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorComponent.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorFireball.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorForce.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorGlow.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorHeatwave.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorLight.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorShockwave.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorSmoke.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorSound.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorSparks.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/System/DetonatorSpray.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/TestScene/DetonatorTest.cs"
+"Assets/TEST_ASSET/Detonator Explosion Framework/TestScene/TouchToMouse.cs"
+Assets/TEST_ASSET/effect1_Tazo_fx/Script/BillBoard.cs
+Assets/TEST_ASSET/omega_fighter_01/script/MouseLook.cs
+Assets/bossCtl.cs
+Assets/laser/ExampleScenes/ExampleScripts/CannonBehavior.cs
+Assets/laser/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+Assets/laser/ExampleScenes/ExampleScripts/ShotBehavior.cs
+Assets/laser/Scripts/SetFovGlobalShaderVariable.cs
+Assets/laser/Scripts/Utils/ExposePropertyAttribute.cs
+Assets/laser/Scripts/Utils/TransformExtensionMethods.cs
+Assets/laser/Scripts/VolumetricLineBehavior.cs
+Assets/laser/Scripts/VolumetricLineStripBehavior.cs
+Assets/laser/Scripts/VolumetricMultiLineBehavior.cs
+Assets/movetest.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
