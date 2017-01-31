@@ -91,6 +91,7 @@
     <Compile Include="Assets\1.Scripts\0.Manager\UIManger.cs" />
     <Compile Include="Assets\1.Scripts\1.Animation\AnimRandomStart.cs" />
     <Compile Include="Assets\1.Scripts\BulletCtrl.cs" />
+    <Compile Include="Assets\1.Scripts\Cyh\Enemy.cs" />
     <Compile Include="Assets\1.Scripts\DestroyEffect.cs" />
     <Compile Include="Assets\1.Scripts\FireCtrl.cs" />
     <Compile Include="Assets\1.Scripts\FirstPersonController.cs" />
