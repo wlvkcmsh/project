@@ -29,6 +29,9 @@ public class Gun : MonoBehaviour {
     public Camera viewCamera;
 
 
+    public int gundamage = 1;
+    public float hitForce = 100f;
+
     void Awake()
     {
         muzzleflash = GetComponent<MuzzleFlash>();
@@ -69,6 +72,12 @@ public class Gun : MonoBehaviour {
                 if (hit.collider.gameObject.tag == "ENEMY")
                 {
                     Instantiate(shootEffect, hit.point, Quaternion.identity);
+                    Enemy health = hit.collider.GetComponent<Enemy>();
+                    if (health != null)
+                    {
+                        health.Damage(gundamage);
+                    }
+                    // hit.rigidbody.AddForce(-hit.normal * hitForce);
                 }
             }
 
