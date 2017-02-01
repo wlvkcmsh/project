@@ -1,3 +1,6 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
 Shader "Puffy_Smoke/Smoke Medium Details" {
 
 	Properties {
@@ -106,8 +109,8 @@ Shader "Puffy_Smoke/Smoke Medium Details" {
 					
 					#ifdef VERTEXLIGHT_ON
 					if(_ExtraLightsIntensity > 0){
-						fixed4x4 modelMatrix = _Object2World;
-						fixed4x4 modelMatrixInverse = _World2Object; 
+						fixed4x4 modelMatrix = unity_ObjectToWorld;
+						fixed4x4 modelMatrixInverse = unity_WorldToObject; 
 						fixed3 posWorld = mul(modelMatrix, input.vertex).xyz;
 						
 						for (int index = 0; index < 4; index++){

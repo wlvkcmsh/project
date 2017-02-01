@@ -1,3 +1,6 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
 Shader "Effects/Explosions/Particles/Alpha Blended Light Soft" {
 Properties {
 	_TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
@@ -69,8 +72,8 @@ SubShader {
 				#endif
 				o.color = v.color;
 				
-				o.normalDir = normalize( mul( half4( v.normal, 0.0 ), _World2Object ).xyz );
-                float4 posWorld = mul(_Object2World, v.vertex);
+				o.normalDir = normalize( mul( half4( v.normal, 0.0 ), unity_WorldToObject ).xyz );
+                float4 posWorld = mul(unity_ObjectToWorld, v.vertex);
                 o.viewDir = normalize( _WorldSpaceCameraPos.xyz - posWorld.xyz );
                 half3 fragmentToLightSource = _WorldSpaceLightPos0.xyz - posWorld.xyz;
                 o.lightDir = fixed4( normalize( lerp(_WorldSpaceLightPos0.xyz , fragmentToLightSource, _WorldSpaceLightPos0.w) ), lerp(1.0 , 1.0/length(fragmentToLightSource), _WorldSpaceLightPos0.w) );
@@ -166,8 +169,8 @@ SubShader {
 					#endif
 					o.color = v.color;
 
-					o.normalDir = normalize( mul( half4( v.normal, 0.0 ), _World2Object ).xyz );
-					float4 posWorld = mul(_Object2World, v.vertex);
+					o.normalDir = normalize( mul( half4( v.normal, 0.0 ), unity_WorldToObject ).xyz );
+					float4 posWorld = mul(unity_ObjectToWorld, v.vertex);
 					o.viewDir = normalize( _WorldSpaceCameraPos.xyz - posWorld.xyz );
 					half3 fragmentToLightSource = _WorldSpaceLightPos0.xyz - posWorld.xyz;
 					o.lightDir = fixed4( normalize( lerp(_WorldSpaceLightPos0.xyz , fragmentToLightSource, _WorldSpaceLightPos0.w) ), lerp(1.0 , 1.0/length(fragmentToLightSource), _WorldSpaceLightPos0.w) );

@@ -13,7 +13,21 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1725dd409ce75d2884f5bea1dab97b3ab20fd27c
+    m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> parent of 8699b07... no message
+<<<<<<< HEAD
+>>>>>>> 1725dd409ce75d2884f5bea1dab97b3ab20fd27c
+=======
+>>>>>>> 1725dd409ce75d2884f5bea1dab97b3ab20fd27c
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

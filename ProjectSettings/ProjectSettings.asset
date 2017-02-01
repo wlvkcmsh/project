@@ -10,7 +10,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: RC7403
+  productName: project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
@@ -89,14 +89,14 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.oculus.UnitySample
+  bundleIdentifier: com.Company.ProductName
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
-  productGUID: 629c4698cbd1a3c439f6fed307f20590
+  productGUID: 1758188f14de29f4aad21f0183a6a684
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -116,7 +116,7 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iPhoneTargetOSVersion: 22
+  iPhoneTargetOSVersion: 24
   tvOSSdkVersion: 0
   tvOSTargetOSVersion: 900
   uIPrerenderedIcon: 0
@@ -171,13 +171,7 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons:
-  - m_BuildTarget: 
-    m_Icons:
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 128
-      m_Height: 128
+  m_BuildTargetIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   webPlayerTemplate: APPLICATION:Default
@@ -341,18 +335,17 @@ PlayerSettings:
     4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     14: MOBILE_INPUT
-    15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     17: MOBILE_INPUT
     20: MOBILE_INPUT
     22: MOBILE_INPUT
-  metroPackageName: RC7403
+  metroPackageName: project
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: RC7403
+  metroApplicationDescription: project
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -363,9 +356,9 @@ PlayerSettings:
   metroDefaultTileSize: 1
   metroTileForegroundText: 1
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628,
+  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
-  metroSplashScreenUseBackgroundColor: 1
+  metroSplashScreenUseBackgroundColor: 0
   platformCapabilities: {}
   metroFTAName: 
   metroFTAFileTypes: []
@@ -433,19 +426,65 @@ PlayerSettings:
   - Android::ScriptingBackend
   - Standalone::ScriptingBackend
   - WebPlayer::ScriptingBackend
-  - iOS::Architecture
-  - iOS::EnableIncrementalBuildSupportForIl2cpp
-  - iOS::ScriptingBackend
   Android::ScriptingBackend: 0
   Standalone::ScriptingBackend: 0
   WebPlayer::ScriptingBackend: 0
-  iOS::Architecture: 2
-  iOS::EnableIncrementalBuildSupportForIl2cpp: 1
-  iOS::ScriptingBackend: 1
   boolPropertyNames:
+  - Android::VR::enable
+  - Metro::VR::enable
+  - N3DS::VR::enable
+  - PS3::VR::enable
+  - PS4::VR::enable
+  - PSM::VR::enable
+  - PSP2::VR::enable
+  - SamsungTV::VR::enable
+  - Standalone::VR::enable
+  - Tizen::VR::enable
+  - WebGL::VR::enable
+  - WebPlayer::VR::enable
+  - WiiU::VR::enable
+  - Xbox360::VR::enable
+  - XboxOne::VR::enable
   - XboxOne::enus
+  - iOS::VR::enable
+  - tvOS::VR::enable
+  Android::VR::enable: 0
+  Metro::VR::enable: 0
+  N3DS::VR::enable: 0
+  PS3::VR::enable: 0
+  PS4::VR::enable: 0
+  PSM::VR::enable: 0
+  PSP2::VR::enable: 0
+  SamsungTV::VR::enable: 0
+  Standalone::VR::enable: 0
+  Tizen::VR::enable: 0
+  WebGL::VR::enable: 0
+  WebPlayer::VR::enable: 0
+  WiiU::VR::enable: 0
+  Xbox360::VR::enable: 0
+  XboxOne::VR::enable: 0
   XboxOne::enus: 1
-  stringPropertyNames: []
+  iOS::VR::enable: 0
+  tvOS::VR::enable: 0
+  stringPropertyNames:
+  - Analytics_ServiceEnabled::Analytics_ServiceEnabled
+  - Build_ServiceEnabled::Build_ServiceEnabled
+  - Collab_ServiceEnabled::Collab_ServiceEnabled
+  - ErrorHub_ServiceEnabled::ErrorHub_ServiceEnabled
+  - Game_Performance_ServiceEnabled::Game_Performance_ServiceEnabled
+  - Hub_ServiceEnabled::Hub_ServiceEnabled
+  - Purchasing_ServiceEnabled::Purchasing_ServiceEnabled
+  - UNet_ServiceEnabled::UNet_ServiceEnabled
+  - Unity_Ads_ServiceEnabled::Unity_Ads_ServiceEnabled
+  Analytics_ServiceEnabled::Analytics_ServiceEnabled: False
+  Build_ServiceEnabled::Build_ServiceEnabled: False
+  Collab_ServiceEnabled::Collab_ServiceEnabled: False
+  ErrorHub_ServiceEnabled::ErrorHub_ServiceEnabled: False
+  Game_Performance_ServiceEnabled::Game_Performance_ServiceEnabled: False
+  Hub_ServiceEnabled::Hub_ServiceEnabled: False
+  Purchasing_ServiceEnabled::Purchasing_ServiceEnabled: False
+  UNet_ServiceEnabled::UNet_ServiceEnabled: False
+  Unity_Ads_ServiceEnabled::Unity_Ads_ServiceEnabled: False
   cloudProjectId: 
   projectName: 
   organizationId: 
