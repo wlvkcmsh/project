@@ -81,21 +81,6 @@ public class Gun : MonoBehaviour {
                 }
             }
 
-            //mainCamera = eventMgr.curEvent.CurCamera.transform.GetChild(1).GetComponent<Camera>();  //중현이형 처리방식
-
-            //Ray ray = mainCamera.ScreenPointToRay(crossHairScreenPos);
-            /*if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-            {
-                Debug.Log("나가라레이캐스트");
-                Debug.DrawRay(ray.origin, ray.direction * 100f, Color.green, 10f);
-                if (hit.collider.gameObject.tag == "ENEMY")
-                {
-                    hit.rigidbody.AddForceAtPosition(ray.direction * force, hit.point);
-                    Instantiate(shootEffect, hit.point, Quaternion.identity);
-                    Debug.Log(hit.point); 
-                }
-            }*/
-
             Instantiate(shell, shellEjection.position, shellEjection.rotation);
             muzzleflash.Activate();
         }
