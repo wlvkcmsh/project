@@ -127,7 +127,7 @@
      <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsDistortionParticlesCutout.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsDistortionParticlesCutout.shader" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -135,8 +135,8 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\PostApo\Tools\Blend SM2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendInterpolated.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsDistortionCullBack.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsParticleBlendInterpolated.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsDistortionCullBack.shader" />
      <None Include="Assets\8.ETC\misile\Plugins\PuffySmoke\Shaders\PuffySmoke.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\5.Fonts\11.txt" />
@@ -170,7 +170,7 @@
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-AlphaTest-Diffuse.shader" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\BasicVertexLitColored.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-Diffuse.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendLightSoft.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsParticleBlendLightSoft.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
@@ -192,7 +192,7 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsGlowAdditive.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsGlowAdditive.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\PostApo\Tools\Blend SM3.shader" />
@@ -218,7 +218,7 @@
      <None Include="Assets\Puffy_Smoke_Readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\KriptoFX\Readme.txt" />
+     <None Include="Assets\ExplosionEffect\Readme.txt" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -226,7 +226,7 @@
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\DecalSystem.Runtime.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsGlowAdditiveMobile.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsGlowAdditiveMobile.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-AlphaTest-TargetBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
@@ -248,7 +248,7 @@
      <None Include="Assets\Plugins\PuffySmoke\Shaders\FakedVolumetric_smoke_medium.shader" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\DebugNormals.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
-     <None Include="Assets\KriptoFX\Shaders\ExplosionsParticleBlendLight.shader" />
+     <None Include="Assets\ExplosionEffect\Shaders\ExplosionsParticleBlendLight.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-TargetBumped.shader" />
