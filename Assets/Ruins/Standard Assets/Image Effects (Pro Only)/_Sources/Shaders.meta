@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Ruins/Standard Assets/Image Effects (Pro Only)/_Sources/Shaders.meta
 guid: 0abeb681af25f7c4fbfe61a00fcb9e12
 folderAsset: yes
 timeCreated: 1486008275
+=======
+guid: fa40ae2929285ca439ab8b5d80685f5b
+folderAsset: yes
+timeCreated: 1486000362
+>>>>>>> cb596c4fc73d29f50b75b76d52467f60dd9bf1ec:Assets/Ruins/Standard Assets/Image Effects (Pro Only)/_Sources/Shaders.meta
 licenseType: Free
 DefaultImporter:
   userData: 
