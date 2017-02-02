@@ -16,7 +16,7 @@ public class Shell : MonoBehaviour
         myRigidbody.AddForce(transform.right * force);
         myRigidbody.AddTorque(Random.insideUnitSphere * force);
 
-        lifeTime = 3;
+        lifeTime = 2;
         fadeTime = 2;
 
         StartCoroutine(Fade());
