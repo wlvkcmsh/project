@@ -8,7 +8,7 @@ public class Crosshair_test : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        distance_z = 25;
+        distance_z = 5;
     }
 
     // Update is called once per frame
