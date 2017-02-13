@@ -12,9 +12,10 @@ GameObject:
   - 65: {fileID: 6594346}
   - 23: {fileID: 2340746}
   - 114: {fileID: 11440390}
+  - 114: {fileID: 11419686}
   m_Layer: 0
   m_Name: Bullet_test
-  m_TagString: Untagged
+  m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,6 +78,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11419686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f452154cae600a4baac4f1181de82ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 3
+  shootEffect: {fileID: 167654, guid: ce3250aa5bf9b694f889ed741af81206, type: 2}
 --- !u!114 &11440390
 MonoBehaviour:
   m_ObjectHideFlags: 1

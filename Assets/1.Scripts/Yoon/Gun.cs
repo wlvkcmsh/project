@@ -32,6 +32,8 @@ public class Gun : MonoBehaviour {
     public int gundamage = 1;
     public float hitForce = 100f;
 
+   //Animator animator;
+
     void Awake()
     {
         muzzleflash = GetComponent<MuzzleFlash>();
@@ -39,6 +41,7 @@ public class Gun : MonoBehaviour {
         //viewCamera = GetComponent<Camera>();
         if (viewCamera != null)
             Debug.Log("Success");
+      //  animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -53,6 +56,7 @@ public class Gun : MonoBehaviour {
         if(Input.GetButton("AButton"))
         {
             Shoot();
+         //  animator.SetBool("shoot", true);
         }
     }
 
@@ -75,7 +79,7 @@ public class Gun : MonoBehaviour {
                 if (hit.collider.gameObject.tag == "ENEMY")
                 {
                     Instantiate(shootEffect, hit.point, Quaternion.identity);
-                    Enemy health = hit.collider.GetComponent<Enemy>();
+                    EnemyHealth health = hit.collider.GetComponent<EnemyHealth>();
                     if (health != null)
                     {
                         health.Damage(gundamage);
