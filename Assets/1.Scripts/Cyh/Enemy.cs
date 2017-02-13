@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 
     float nextShotTime;
 
-    public GameObject shootEffect;
+   // public GameObject shootEffect;
     public int currentHealth ;
 
 
@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     float rotationControl = 6.0f;
     public enum MonsterState
     {
-        idle, trace, attack, die
+        idle, attack, die
     };
 
     public MonsterState monsterState = MonsterState.idle;
@@ -64,10 +64,7 @@ public class Enemy : MonoBehaviour
             switch (monsterState)
             {
                 case MonsterState.idle:
-                   // nvAgent.Stop();
-                    break;
-                case MonsterState.trace:
-                   // nvAgent.destination = playerTr.position;
+                  
                     break;
                 case MonsterState.attack:
                     Shoot();
@@ -80,18 +77,18 @@ public class Enemy : MonoBehaviour
 
 
 
-    public void Damage(int damageAmount)
-    {
+    //public void Damage(int damageAmount)
+    //{
         
-        currentHealth -= damageAmount;
+    //    currentHealth -= damageAmount;
 
        
-        if (currentHealth <= 0)
-        {
-            Instantiate(shootEffect, gameObject.transform.position, Quaternion.identity);
-            gameObject.SetActive(false);
-        }
-    }
+    //    if (currentHealth <= 0)
+    //    {
+    //        Instantiate(shootEffect, gameObject.transform.position, Quaternion.identity);
+    //        gameObject.SetActive(false);
+    //    }
+    //}
 
 
     public void Shoot()
@@ -106,10 +103,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButton(0))
-        {
-            Shoot();
-        }
+       
         Turn();
     }
 
