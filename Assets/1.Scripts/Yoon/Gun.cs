@@ -27,7 +27,7 @@ public class Gun : MonoBehaviour {
     public GameObject shootEffect;
 
     public Camera viewCamera;
-
+    public Canvas canvas;
 
     public int gundamage = 1;
     public float hitForce = 100f;
@@ -64,7 +64,10 @@ public class Gun : MonoBehaviour {
 
             //Vector3 crossHairScreenPos = UIMgr.camUI.WorldToScreenPoint(UIMgr.goCrossHairs[0].transform.position);
             //Ray ray = viewCamera.ScreenPointToRay(crossHairScreenPos);
-            Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
+            //Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
+
+            Vector3 rayOrigin = viewCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
+            Ray ray = viewCamera.ScreenPointToRay(new Vector3(Screen.width/2, Screen.height/2, 0));
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
