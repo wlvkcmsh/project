@@ -82,6 +82,9 @@
     <Compile Include="Assets\0.Scene\AnPrefab\AnenemyDie.cs" />
     <Compile Include="Assets\0.Scene\AnPrefab\BulletBombAddForce.cs" />
     <Compile Include="Assets\0.Scene\AnPrefab\LookAt.cs" />
+    <Compile Include="Assets\0.Scene\LSB_CockPit\Cam_Move.cs" />
+    <Compile Include="Assets\0.Scene\LSB_CockPit\Chest_Move.cs" />
+    <Compile Include="Assets\0.Scene\LSB_CockPit\Leg_Move.cs" />
     <Compile Include="Assets\1.Scripts\0.Manager\EnemyManger.cs" />
     <Compile Include="Assets\1.Scripts\0.Manager\EventManager.cs" />
     <Compile Include="Assets\1.Scripts\0.Manager\GameManager.cs" />
