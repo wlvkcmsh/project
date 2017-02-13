@@ -20,7 +20,6 @@ public class Enemy : MonoBehaviour
     private bool isDie = false;
     private Transform monsterTr;
     private Transform playerTr;
-    private NavMeshAgent nvAgent;
 
     public Transform waypoint;
    // int currentwaypoint = 0;

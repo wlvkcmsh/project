@@ -5,6 +5,7 @@ public class Leg_Move : MonoBehaviour {
 
 
     float speed = 20.0f;
+
     // Use this for initialization
     void Start()
     {
@@ -22,5 +23,5 @@ public class Leg_Move : MonoBehaviour {
         transform.Rotate(Vector3.up * h * 10);
         transform.Translate(Vector3.forward * v);
     }
-       
+
 }
