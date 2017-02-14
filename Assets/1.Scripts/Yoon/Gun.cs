@@ -14,6 +14,10 @@ public class Gun : MonoBehaviour {
     public Transform shellEjection;
     MuzzleFlash muzzleflash;
 
+    Ray check_ray;
+    private float rayTime;
+    private float interval;
+
     public float force;
 
     UIManger UIMgr;
@@ -32,16 +36,28 @@ public class Gun : MonoBehaviour {
     public int gundamage = 1;
     public float hitForce = 100f;
 
+<<<<<<< HEAD
+    public Animator animator1;
+    public Animator animator2;
+    private float EnemyDist;
+=======
    //Animator animator;
+>>>>>>> 4737d3dd155d360738c77f8b87c14e4e0d312ff4
 
     void Awake()
     {
         muzzleflash = GetComponent<MuzzleFlash>();
         viewCamera = Camera.main;
+<<<<<<< HEAD
+
+        animator1.SetBool("Trigger", true);
+        animator2.SetBool("Trigger", true);
+=======
         //viewCamera = GetComponent<Camera>();
         if (viewCamera != null)
             Debug.Log("Success");
       //  animator = GetComponent<Animator>();
+>>>>>>> 4737d3dd155d360738c77f8b87c14e4e0d312ff4
     }
 
     void Start()
@@ -49,6 +65,9 @@ public class Gun : MonoBehaviour {
         muzzleVelocity = 35;
         shootInterval = 100;
         force = 300f;
+        EnemyDist = 100f;
+
+        interval = 0.3f;
     }
 
     void Update()
@@ -58,6 +77,15 @@ public class Gun : MonoBehaviour {
             Shoot();
          //  animator.SetBool("shoot", true);
         }
+
+        rayTime += Time.deltaTime;
+        if(rayTime >= interval)
+        {
+            
+            rayTime = 0.0f;
+        }
+        CheckEnemy();
+
     }
 
     public void Shoot()
@@ -70,12 +98,11 @@ public class Gun : MonoBehaviour {
             //Ray ray = viewCamera.ScreenPointToRay(crossHairScreenPos);
             //Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
 
-            Vector3 rayOrigin = viewCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
             Ray ray = viewCamera.ScreenPointToRay(new Vector3(Screen.width/2, Screen.height/2, 0));
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                Debug.DrawRay(ray.origin, ray.direction * 100f, Color.green, 10f);
+                Debug.DrawRay(ray.origin, ray.direction * 100f, Color.green, 2f);
                 if (hit.collider.gameObject.tag == "ENEMY")
                 {
                     Instantiate(shootEffect, hit.point, Quaternion.identity);
@@ -91,5 +118,30 @@ public class Gun : MonoBehaviour {
             Instantiate(shell, shellEjection.position, shellEjection.rotation);
             muzzleflash.Activate();
         }
+    }
+
+    public void CheckEnemy()
+    {
+        check_ray = viewCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
+
+        if (Physics.Raycast(check_ray, out hit, Mathf.Infinity))
+        {
+            Debug.DrawRay(check_ray.origin, check_ray.direction * 100f, Color.green, 2f);
+            if (hit.collider.gameObject.tag == "ENEMY")
+            {
+                float dist = Vector3.Distance(gameObject.transform.position, hit.collider.transform.position);
+                if (dist <= EnemyDist)
+                {
+                    animator1.SetBool("Trigger", false);
+                    animator2.SetBool("Trigger", false);
+                }
+            }
+            else
+            {
+                animator1.SetBool("Trigger", true);
+                animator2.SetBool("Trigger", true);
+            }
+        }
+
     }
 }
