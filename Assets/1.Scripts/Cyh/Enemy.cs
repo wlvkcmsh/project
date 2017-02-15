@@ -54,6 +54,10 @@ public class Enemy : MonoBehaviour
             {
                 monsterState = MonsterState.attack;
             }
+            if(dist>attackDist)
+            {
+                monsterState = MonsterState.idle;
+            }
             
         }
     }
