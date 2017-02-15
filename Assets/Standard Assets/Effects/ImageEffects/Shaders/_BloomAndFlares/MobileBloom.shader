@@ -69,12 +69,12 @@ Shader "Hidden/FastBloom" {
 			return o; 
 		}					
 						
-		fixed4 fragBloom ( v2f_simple i ) : SV_Target
+		fixed4 fragBloom ( v2f_simple i ) : COLOR
 		{	
         	#if UNITY_UV_STARTS_AT_TOP
 			
-			fixed4 color = tex2D(_MainTex, i.uv2);
-			return color + tex2D(_Bloom, i.uv);
+			fixed4 color = tex2D(_MainTex, i.uv);
+			return color + tex2D(_Bloom, i.uv2);
 			
 			#else
 
@@ -84,7 +84,7 @@ Shader "Hidden/FastBloom" {
 			#endif
 		} 
 		
-		fixed4 fragDownsample ( v2f_tap i ) : SV_Target
+		fixed4 fragDownsample ( v2f_tap i ) : COLOR
 		{				
 			fixed4 color = tex2D (_MainTex, i.uv20);
 			color += tex2D (_MainTex, i.uv21);
@@ -136,7 +136,7 @@ Shader "Hidden/FastBloom" {
 			return o; 
 		}	
 
-		half4 fragBlur8 ( v2f_withBlurCoords8 i ) : SV_Target
+		half4 fragBlur8 ( v2f_withBlurCoords8 i ) : COLOR
 		{
 			half2 uv = i.uv.xy; 
 			half2 netFilterWidth = i.offs;  
@@ -159,11 +159,14 @@ Shader "Hidden/FastBloom" {
 			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
 			
 			o.uv = v.texcoord.xy;
-
-			half offsetMagnitude = _MainTex_TexelSize.x * _Parameter.x;
-			o.offs[0] = v.texcoord.xyxy + offsetMagnitude * half4(-3.0h, 0.0h, 3.0h, 0.0h);
-			o.offs[1] = v.texcoord.xyxy + offsetMagnitude * half4(-2.0h, 0.0h, 2.0h, 0.0h);
-			o.offs[2] = v.texcoord.xyxy + offsetMagnitude * half4(-1.0h, 0.0h, 1.0h, 0.0h);
+			half2 netFilterWidth = _MainTex_TexelSize.xy * half2(1.0, 0.0) * _Parameter.x; 
+			half4 coords = -netFilterWidth.xyxy * 3.0;
+			
+			o.offs[0] = v.texcoord.xyxy + coords * half4(1.0h,1.0h,-1.0h,-1.0h);
+			coords += netFilterWidth.xyxy;
+			o.offs[1] = v.texcoord.xyxy + coords * half4(1.0h,1.0h,-1.0h,-1.0h);
+			coords += netFilterWidth.xyxy;
+			o.offs[2] = v.texcoord.xyxy + coords * half4(1.0h,1.0h,-1.0h,-1.0h);
 
 			return o; 
 		}		
@@ -174,16 +177,19 @@ Shader "Hidden/FastBloom" {
 			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
 			
 			o.uv = half4(v.texcoord.xy,1,1);
-
-			half offsetMagnitude = _MainTex_TexelSize.y * _Parameter.x;
-			o.offs[0] = v.texcoord.xyxy + offsetMagnitude * half4(0.0h, -3.0h, 0.0h, 3.0h);
-			o.offs[1] = v.texcoord.xyxy + offsetMagnitude * half4(0.0h, -2.0h, 0.0h, 2.0h);
-			o.offs[2] = v.texcoord.xyxy + offsetMagnitude * half4(0.0h, -1.0h, 0.0h, 1.0h);
+			half2 netFilterWidth = _MainTex_TexelSize.xy * half2(0.0, 1.0) * _Parameter.x;
+			half4 coords = -netFilterWidth.xyxy * 3.0;
+			
+			o.offs[0] = v.texcoord.xyxy + coords * half4(1.0h,1.0h,-1.0h,-1.0h);
+			coords += netFilterWidth.xyxy;
+			o.offs[1] = v.texcoord.xyxy + coords * half4(1.0h,1.0h,-1.0h,-1.0h);
+			coords += netFilterWidth.xyxy;
+			o.offs[2] = v.texcoord.xyxy + coords * half4(1.0h,1.0h,-1.0h,-1.0h);
 
 			return o; 
 		}	
 
-		half4 fragBlurSGX ( v2f_withBlurCoordsSGX i ) : SV_Target
+		half4 fragBlurSGX ( v2f_withBlurCoordsSGX i ) : COLOR
 		{
 			half2 uv = i.uv.xy;
 			
@@ -204,6 +210,7 @@ Shader "Hidden/FastBloom" {
 	
 	SubShader {
 	  ZTest Off Cull Off ZWrite Off Blend Off
+	  Fog { Mode off }  
 	  
 	// 0
 	Pass {
@@ -211,6 +218,7 @@ Shader "Hidden/FastBloom" {
 		CGPROGRAM
 		#pragma vertex vertBloom
 		#pragma fragment fragBloom
+		#pragma fragmentoption ARB_precision_hint_fastest 
 		
 		ENDCG
 		 
@@ -223,6 +231,7 @@ Shader "Hidden/FastBloom" {
 		
 		#pragma vertex vert4Tap
 		#pragma fragment fragDownsample
+		#pragma fragmentoption ARB_precision_hint_fastest 
 		
 		ENDCG
 		 
@@ -237,6 +246,7 @@ Shader "Hidden/FastBloom" {
 		
 		#pragma vertex vertBlurVertical
 		#pragma fragment fragBlur8
+		#pragma fragmentoption ARB_precision_hint_fastest 
 		
 		ENDCG 
 		}	
@@ -250,6 +260,7 @@ Shader "Hidden/FastBloom" {
 		
 		#pragma vertex vertBlurHorizontal
 		#pragma fragment fragBlur8
+		#pragma fragmentoption ARB_precision_hint_fastest 
 		
 		ENDCG
 		}	
@@ -264,6 +275,7 @@ Shader "Hidden/FastBloom" {
 		
 		#pragma vertex vertBlurVerticalSGX
 		#pragma fragment fragBlurSGX
+		#pragma fragmentoption ARB_precision_hint_fastest 
 		
 		ENDCG
 		}	
@@ -277,6 +289,7 @@ Shader "Hidden/FastBloom" {
 		
 		#pragma vertex vertBlurHorizontalSGX
 		#pragma fragment fragBlurSGX
+		#pragma fragmentoption ARB_precision_hint_fastest 
 		
 		ENDCG
 		}	
