@@ -36,28 +36,17 @@ public class Gun : MonoBehaviour {
     public int gundamage = 1;
     public float hitForce = 100f;
 
-<<<<<<< HEAD
     public Animator animator1;
     public Animator animator2;
     private float EnemyDist;
-=======
-   //Animator animator;
->>>>>>> 4737d3dd155d360738c77f8b87c14e4e0d312ff4
 
     void Awake()
     {
         muzzleflash = GetComponent<MuzzleFlash>();
         viewCamera = Camera.main;
-<<<<<<< HEAD
 
         animator1.SetBool("Trigger", true);
         animator2.SetBool("Trigger", true);
-=======
-        //viewCamera = GetComponent<Camera>();
-        if (viewCamera != null)
-            Debug.Log("Success");
-      //  animator = GetComponent<Animator>();
->>>>>>> 4737d3dd155d360738c77f8b87c14e4e0d312ff4
     }
 
     void Start()

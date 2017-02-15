@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &173570
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &196812
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 496814}
   m_RootOrder: 4
@@ -189,7 +189,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 496814}
   m_RootOrder: 3
@@ -330,6 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScaleCurveX:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
@@ -348,7 +349,9 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   ScaleCurveY:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
@@ -367,7 +370,9 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   ScaleCurveZ:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
@@ -386,6 +391,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   GraphTimeMultiplier: {x: 1, y: 1, z: 1}
   GraphScaleMultiplier: {x: 30, y: 30, z: 30}
 --- !u!114 &11473570
@@ -402,14 +408,46 @@ MonoBehaviour:
   ShaderProperty: 5f54696e74436f6c6f72
   MaterialID: 0
   Color:
-    key0: {}
-    key1: {}
-    key2: {}
-    key3: {}
-    key4: {}
-    key5: {}
-    key6: {}
-    key7: {}
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   TimeMultiplier: 0.8
@@ -427,6 +465,7 @@ MonoBehaviour:
   ShaderProperty: 5f42756d70416d74
   MaterialID: 0
   FloatPropertyCurve:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 1
@@ -445,6 +484,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   GraphTimeMultiplier: 0.6
   GraphScaleMultiplier: 100
 --- !u!114 &11473574
@@ -485,6 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LightCurve:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
@@ -503,6 +544,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   GraphTimeMultiplier: 1.7
   GraphIntensityMultiplier: 1.2
 --- !u!198 &19873568

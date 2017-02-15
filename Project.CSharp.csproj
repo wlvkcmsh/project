@@ -95,15 +95,10 @@
     <Compile Include="Assets\1.Scripts\1.Animation\AnimRandomStart.cs" />
     <Compile Include="Assets\1.Scripts\BulletCtrl.cs" />
     <Compile Include="Assets\1.Scripts\Cyh\Enemy.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\1.Scripts\Cyh\EnemyHealth.cs" />
     <Compile Include="Assets\1.Scripts\Cyh\Gun_test.cs" />
     <Compile Include="Assets\1.Scripts\Cyh\Projectile_test.cs" />
     <Compile Include="Assets\1.Scripts\Cyh\ShootAni.cs" />
-=======
-    <Compile Include="Assets\1.Scripts\Cyh\Gun_test.cs" />
-    <Compile Include="Assets\1.Scripts\Cyh\Projectile_test.cs" />
->>>>>>> 54a321675231e8565566404e60cbc973d912c3ee
     <Compile Include="Assets\1.Scripts\DestroyEffect.cs" />
     <Compile Include="Assets\1.Scripts\FireCtrl.cs" />
     <Compile Include="Assets\1.Scripts\FirstPersonController.cs" />
@@ -114,6 +109,7 @@
     <Compile Include="Assets\1.Scripts\Yoon\Crosshair.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Crosshair_test.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Explosion.cs" />
+    <Compile Include="Assets\1.Scripts\Yoon\Explosion_Assalt.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Fire.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\Gun.cs" />
     <Compile Include="Assets\1.Scripts\Yoon\GunAni.cs" />
