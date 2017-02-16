@@ -82,6 +82,7 @@
      <Compile Include="Assets\1.Scripts\Yoon\Crosshair.cs" />
      <Compile Include="Assets\1.Scripts\Yoon\Crosshair_test.cs" />
      <Compile Include="Assets\1.Scripts\Yoon\Explosion.cs" />
+     <Compile Include="Assets\1.Scripts\Yoon\Explosion_Assalt.cs" />
      <Compile Include="Assets\1.Scripts\Yoon\Fire.cs" />
      <Compile Include="Assets\1.Scripts\Yoon\Gun.cs" />
      <Compile Include="Assets\1.Scripts\Yoon\GunAni.cs" />
