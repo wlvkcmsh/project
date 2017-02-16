@@ -100,7 +100,7 @@ public class Gun : MonoBehaviour {
                     {
                         health.Damage(gundamage);
                     }
-                    // hit.rigidbody.AddForce(-hit.normal * hitForce);
+                     //hit.rigidbody.AddForce(-hit.normal * hitForce);
                 }
             }
 
