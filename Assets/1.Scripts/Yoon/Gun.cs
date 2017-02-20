@@ -80,6 +80,7 @@ public class Gun : MonoBehaviour {
             rayTime = 0.0f;
         }
 
+
         
     }
 
