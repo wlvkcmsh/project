@@ -16,7 +16,7 @@ public class Gun : MonoBehaviour {
 
     Ray check_ray;
     private float rayTime;
-    private float interval;
+    public float interval;
 
     public float force;
 
@@ -70,10 +70,10 @@ public class Gun : MonoBehaviour {
         rayTime += Time.deltaTime;
         if(rayTime >= interval)
         {
-            
+            CheckEnemy();
             rayTime = 0.0f;
         }
-        CheckEnemy();
+        
 
     }
 
