@@ -40,6 +40,8 @@ public class Gun : MonoBehaviour {
     public Animator animator2;
     private float EnemyDist;
 
+    public Animator ShootAni;
+
     void Awake()
     {
         muzzleflash = GetComponent<MuzzleFlash>();
@@ -64,7 +66,11 @@ public class Gun : MonoBehaviour {
         if(Input.GetButton("AButton"))
         {
             Shoot();
-         //  animator.SetBool("shoot", true);
+            ShootAni.SetBool("shoot", true);
+        }
+        else
+        {
+            ShootAni.SetBool("shoot", false);
         }
 
         rayTime += Time.deltaTime;
@@ -73,8 +79,12 @@ public class Gun : MonoBehaviour {
             CheckEnemy();
             rayTime = 0.0f;
         }
+<<<<<<< HEAD
         
+=======
+>>>>>>> 2a7b0fef253fa65264fa0c8ab646af9c7c5694a3
 
+        
     }
 
     public void Shoot()
@@ -115,7 +125,7 @@ public class Gun : MonoBehaviour {
 
         if (Physics.Raycast(check_ray, out hit, Mathf.Infinity))
         {
-            Debug.DrawRay(check_ray.origin, check_ray.direction * 100f, Color.green, 2f);
+            Debug.DrawRay(check_ray.origin, check_ray.direction * 100f, Color.green, 0.5f);
             if (hit.collider.gameObject.tag == "ENEMY")
             {
                 float dist = Vector3.Distance(gameObject.transform.position, hit.collider.transform.position);
@@ -124,12 +134,13 @@ public class Gun : MonoBehaviour {
                     animator1.SetBool("Trigger", false);
                     animator2.SetBool("Trigger", false);
                 }
+                else
+                {
+                    animator1.SetBool("Trigger", true);
+                    animator2.SetBool("Trigger", true);
+                }
             }
-            else
-            {
-                animator1.SetBool("Trigger", true);
-                animator2.SetBool("Trigger", true);
-            }
+            
         }
 
     }
