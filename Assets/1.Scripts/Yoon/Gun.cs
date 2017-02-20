@@ -79,10 +79,7 @@ public class Gun : MonoBehaviour {
             CheckEnemy();
             rayTime = 0.0f;
         }
-<<<<<<< HEAD
-        
-=======
->>>>>>> 2a7b0fef253fa65264fa0c8ab646af9c7c5694a3
+
 
         
     }
