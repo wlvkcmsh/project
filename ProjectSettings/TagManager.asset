@@ -15,6 +15,7 @@ TagManager:
   - MISSILE
   - Crosshair
   - BULLET
+  - Head
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - E_BULLET
   - ENEMY
   - Player
-  - 
+  - Head
   - 
   - 
   - 
