@@ -16,6 +16,7 @@ TagManager:
   - Crosshair
   - BULLET
   - Head
+  - Monster_Center
   layers:
   - Default
   - TransparentFX
