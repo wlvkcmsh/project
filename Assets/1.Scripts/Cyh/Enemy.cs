@@ -52,6 +52,7 @@ public class Enemy : MonoBehaviour
             if (dist <= attackDist)
             {
                 monsterState = MonsterState.attack;
+				Turn();
             }
             if(dist>attackDist)
             {
@@ -107,8 +108,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-       
-        Turn();
+		Turn();
     }
 
     void Turn()

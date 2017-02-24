@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: e57c39fdf46052f49b18ecae9558cb1e
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle left
+    100002: ankle right
+    100004: CATRiggun1
+    100006: catriggun1bis
+    100008: CATRiggun2
+    100010: CATRighead
+    100012: CATRigHub001
+    100014: CATRiglleg0
+    100016: CATRigLLeg1
+    100018: CATRigLLeg2
+    100020: CATRigLLeg3
+    100022: CATRigLLeg4
+    100024: CATRigLLegAnkle
+    100026: CATRigLLegDigit11
+    100028: CATRigLLegDigit21
+    100030: CATRigLLegDigit31
+    100032: CATRigLLegDigit41
+    100034: CATRigrleg0
+    100036: CATRigRLeg1
+    100038: CATRigRLeg2
+    100040: CATRigRLeg3
+    100042: CATRigRLeg4
+    100044: CATRigRLegAnkle
+    100046: CATRigRLegDigit11
+    100048: CATRigRLegDigit21
+    100050: CATRigRLegDigit31
+    100052: CATRigRLegDigit41
+    100054: Character001
+    100056: gun1
+    100058: gun2
+    100060: head
+    100062: hub
+    100064: leftleg1
+    100066: leftleg2
+    100068: leftleg3
+    100070: leftleg4
+    100072: //RootNode
+    100074: PIVOT_L
+    100076: PIVOT_R
+    100078: rightleg1
+    100080: rightleg2
+    100082: rightleg3
+    100084: rightleg4
+    100086: wheel
+    400000: ankle left
+    400002: ankle right
+    400004: CATRiggun1
+    400006: catriggun1bis
+    400008: CATRiggun2
+    400010: CATRighead
+    400012: CATRigHub001
+    400014: CATRiglleg0
+    400016: CATRigLLeg1
+    400018: CATRigLLeg2
+    400020: CATRigLLeg3
+    400022: CATRigLLeg4
+    400024: CATRigLLegAnkle
+    400026: CATRigLLegDigit11
+    400028: CATRigLLegDigit21
+    400030: CATRigLLegDigit31
+    400032: CATRigLLegDigit41
+    400034: CATRigrleg0
+    400036: CATRigRLeg1
+    400038: CATRigRLeg2
+    400040: CATRigRLeg3
+    400042: CATRigRLeg4
+    400044: CATRigRLegAnkle
+    400046: CATRigRLegDigit11
+    400048: CATRigRLegDigit21
+    400050: CATRigRLegDigit31
+    400052: CATRigRLegDigit41
+    400054: Character001
+    400056: gun1
+    400058: gun2
+    400060: head
+    400062: hub
+    400064: leftleg1
+    400066: leftleg2
+    400068: leftleg3
+    400070: leftleg4
+    400072: //RootNode
+    400074: PIVOT_L
+    400076: PIVOT_R
+    400078: rightleg1
+    400080: rightleg2
+    400082: rightleg3
+    400084: rightleg4
+    400086: wheel
+    4300000: head
+    4300002: leftleg3
+    4300004: ankle left
+    4300006: leftleg2
+    4300008: leftleg1
+    4300010: hub
+    4300012: gun1
+    4300014: gun2
+    4300016: leftleg4
+    4300018: ankle right
+    4300020: rightleg2
+    4300022: rightleg1
+    4300024: rightleg4
+    4300026: rightleg3
+    4300028: PIVOT_L
+    4300030: PIVOT_R
+    4300032: wheel
+    7400000: ROBOT walk e fire
+    9500000: //RootNode
+    13700000: ankle left
+    13700002: ankle right
+    13700004: gun1
+    13700006: gun2
+    13700008: head
+    13700010: hub
+    13700012: leftleg1
+    13700014: leftleg2
+    13700016: leftleg3
+    13700018: leftleg4
+    13700020: PIVOT_L
+    13700022: PIVOT_R
+    13700024: rightleg1
+    13700026: rightleg2
+    13700028: rightleg3
+    13700030: rightleg4
+    13700032: wheel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CATRigHub001
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

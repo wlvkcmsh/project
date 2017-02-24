@@ -63,7 +63,7 @@ public class Gun : MonoBehaviour {
 
     void Update()
     {
-        if(Input.GetButton("AButton"))
+		if(Input.GetAxis("RightJoystickTrigger")<=-0.001)
         {
             Shoot();
             ShootAni.SetBool("shoot", true);

@@ -17,6 +17,7 @@ TagManager:
   - BULLET
   - Head
   - Monster_Center
+  - Missile
   layers:
   - Default
   - TransparentFX

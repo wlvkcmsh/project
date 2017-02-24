@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{72D92BD3-4735-DFF1-3920-A6487A55DD07}</ProjectGuid>
+    <ProjectGuid>{0D285DE4-9F4A-7089-8D90-EB31E01F4FA3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -150,6 +150,7 @@
      <None Include="Assets\ExplosionEffect\Shaders\ExplosionsGlowAdditive.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Shuriken Salvo\Read_me_Shuriken_Salvo.txt" />
      <None Include="Assets\PostApo\Tools\Blend SM3.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
@@ -200,6 +201,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\FakedVolumetric_smoke_high.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Battle Droid\Readme.txt" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\FakedVolumetric_smoke_medium.shader" />
      <None Include="Assets\Plugins\PuffySmoke\Shaders\DebugNormals.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
@@ -209,7 +211,7 @@
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-TargetBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/admin/Desktop/robot2/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/robot2 - 복사본/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -236,10 +238,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Runtime">
- <HintPath>C:/Users/admin/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/robot2 - 복사본/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Editor">
- <HintPath>C:/Users/admin/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/robot2 - 복사본/Assets/Ruins/Scripts/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -250,9 +252,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{80C216DC-DE96-AE4D-C507-944B03C5E477}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{22E8E454-A3A1-AB00-1E6D-D2D63427AD2B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7F9E5683-F18A-C502-C11F-280B23AB059F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{3B800ECB-C9B0-5C49-1637-CCCF5C36D382}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
