@@ -209,7 +209,11 @@
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-TargetBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
+<<<<<<< HEAD
  <HintPath>C:/Users/JYP/Desktop/루인데모/robot2 - 복사본/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
+ <HintPath>C:/Users/JYP/Desktop/robot2/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+>>>>>>> bb1104280d1b7e673d1edcc2d421b78b8f95a449
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -236,10 +240,17 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Runtime">
+<<<<<<< HEAD
  <HintPath>C:/Users/JYP/Desktop/루인데모/robot2 - 복사본/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Editor">
  <HintPath>C:/Users/JYP/Desktop/루인데모/robot2 - 복사본/Assets/Ruins/Scripts/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
+=======
+ <HintPath>C:/Users/JYP/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="DecalSystem.Editor">
+ <HintPath>C:/Users/JYP/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
+>>>>>>> bb1104280d1b7e673d1edcc2d421b78b8f95a449
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

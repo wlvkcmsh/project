@@ -258,7 +258,11 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Runtime">
+<<<<<<< HEAD
  <HintPath>C:/Users/JYP/Desktop/루인데모/robot2 - 복사본/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
+=======
+ <HintPath>C:/Users/JYP/Desktop/robot2/Assets/Ruins/Scripts/Plugins/Decals/DecalSystem.Runtime.dll</HintPath>
+>>>>>>> bb1104280d1b7e673d1edcc2d421b78b8f95a449
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
